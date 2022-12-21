@@ -21,17 +21,24 @@ Hi, nice to meet you!
 
 I am Botao Yu (余博涛), a Master's student of [Websoft Research Group](http://ws.nju.edu.cn) at [Department of Computer Science and Technology](https://www.nju.edu.cn/EN/7f/6b/c7136a163691/page.htm), [Nanjing University](https://www.nju.edu.cn/EN/main.htm), advised by Assoc. Prof.  [Wei Hu (胡伟)](http://ws.nju.edu.cn/wiki/Wiki.jsp?page=Wei%20Hu).
 
-I also work with [Xu Tan (谭旭)](https://www.microsoft.com/en-us/research/people/xuta), [Peiling Lu (卢佩玲)](https://www.microsoft.com/en-us/research/people/peil), and [Rui Wang (王蕊)](https://www.microsoft.com/en-us/research/people/ruiwa) from [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia), and Asst. Prof. [Muhao Chen](https://muhaochen.github.io/) from [University of Southern California](https://www.usc.edu/).
+I am very fortunate to work with [Xu Tan (谭旭)](https://www.microsoft.com/en-us/research/people/xuta), [Peiling Lu (卢佩玲)](https://www.microsoft.com/en-us/research/people/peil), and [Rui Wang (王蕊)](https://www.microsoft.com/en-us/research/people/ruiwa) from [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia), and Asst. Prof. [Muhao Chen](https://muhaochen.github.io/) from [University of Southern California](https://www.usc.edu/).
 
 My **research interest** includes <u>NLP</u>, <u>AI music</u>, and <u>deep learning</u>. I have experience in information extraction (event extraction, relation extraction), symbolic music generation and understanding, deep learning models (pretrained language models, Transformers, generative models, GNNs, etc.).
 
 😋 I am looking for a PhD position for fall 2023.
 
+# 🔥 News
+
+- 2022.09: Our paper [Museformer](#pub-museformer) is accepted by NeurIPS 2022!
+- 2022.07: Our paper [MeloForm](#pub-meloform) is accepted by ISMIR 2022!
+
 # 📝 Publication
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2022</div><img src='images/thumbnails/museformer.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+<span class='anchor' id='pub-museformer'></span>
 [<b>NeurIPS 2022</b>] Museformer: Transformer with Fine- and Coarse-Grained Attention for Music Generation
+
 
 
 **Botao Yu**, Peiling Lu, Rui Wang, Wei Hu, Xu Tan, Wei Ye, Shikun Zhang, Tao Qin, Tie-Yan Liu
@@ -42,6 +49,8 @@ To solve the long sequence modeling and music structure modeling problem in symb
 
 </div>
 </div>
+
+<span class='anchor' id='pub-meloform'></span>
 
 - [**ISMIR 2022**] MeloForm: Generating Melody with Musical Form Based on Expert Systems and Neural Networks
 
