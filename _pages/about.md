@@ -19,13 +19,13 @@ redirect_from:
 
 Hi, nice to meet you!
 
-I am Botao Yu (余博涛), a Master's student of [Websoft Research Group](http://ws.nju.edu.cn) at [Department of Computer Science and Technology](https://www.nju.edu.cn/EN/7f/6b/c7136a163691/page.htm), [Nanjing University](https://www.nju.edu.cn/EN/main.htm), advised by Assoc. Prof.  [Wei Hu (胡伟)](http://ws.nju.edu.cn/wiki/Wiki.jsp?page=Wei%20Hu).
+I am Botao Yu (余博涛), a Master's student of [Websoft Research Group](http://ws.nju.edu.cn) at [Department of Computer Science and Technology](https://www.nju.edu.cn/EN/7f/6b/c7136a163691/page.htm), [Nanjing University](https://www.nju.edu.cn/EN/main.htm), advised by Prof.  [Wei Hu (胡伟)](http://ws.nju.edu.cn/wiki/Wiki.jsp?page=Wei%20Hu).
 
-I am very fortunate to work with [Xu Tan (谭旭)](https://www.microsoft.com/en-us/research/people/xuta), [Peiling Lu (卢佩玲)](https://www.microsoft.com/en-us/research/people/peil), and [Rui Wang (王蕊)](https://www.microsoft.com/en-us/research/people/ruiwa) from [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia), and Asst. Prof. [Muhao Chen](https://muhaochen.github.io/) from [University of Southern California](https://www.usc.edu/).
+I am very fortunate to work with [Xu Tan (谭旭)](https://www.microsoft.com/en-us/research/people/xuta), [Peiling Lu (卢佩玲)](https://www.microsoft.com/en-us/research/people/peil), and [Rui Wang (王蕊)](https://www.microsoft.com/en-us/research/people/ruiwa) from [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia), and Prof. [Muhao Chen](https://muhaochen.github.io/) from [University of Southern California](https://www.usc.edu/).
 
-My **research interest** includes <u>NLP</u>, <u>AI music</u>, and <u>deep learning</u>. I have experience in information extraction (event extraction, relation extraction), symbolic music generation and understanding, deep learning models (pretrained language models, Transformers, generative models, GNNs, etc.).
+My **research interest** includes <u>NLP</u>, <u>AI music</u>, and <u>deep learning</u>. I have experience in information extraction, symbolic music generation and understanding, and deep learning models.
 
-😋 I am looking for a PhD position for fall 2023.
+😋 I am going to join The Ohio State University as a Ph.D. student in this autumn!
 
 # 🔥 News
 
@@ -45,7 +45,7 @@ My **research interest** includes <u>NLP</u>, <u>AI music</u>, and <u>deep learn
 
 [[Paper](https://arxiv.org/abs/2210.10349/)]     [[Code](https://github.com/microsoft/muzic/tree/main/museformer/)]     [[Demo](https://ai-muzic.github.io/museformer/)]
 
-To solve the long sequence modeling and music structure modeling problem in symbolic music generation, we propose Museformer, a Transformer variant that combines a fine-grained attention for learning the structure-related correlations and a coarse-grained attention for preserving other contextual information at  a low cost.
+To solve the long sequence modeling and music structure modeling problem in symbolic music generation, we propose Museformer, a Transformer variant that combines a fine-grained attention for learning the structure-related correlations and a coarse-grained attention for preserving other contextual information at a low cost.
 
 </div>
 </div>
@@ -95,4 +95,4 @@ To solve the long sequence modeling and music structure modeling problem in symb
 
 ---
 
-*Last modified: December 3, 2022*
+*Last modified: April 20, 2023*
