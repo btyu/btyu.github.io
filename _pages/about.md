@@ -19,16 +19,12 @@ redirect_from:
 
 Hi, nice to meet you!
 
-I am Botao Yu (余博涛), a Master's student of [Websoft Research Group](http://ws.nju.edu.cn) at [Department of Computer Science and Technology](https://www.nju.edu.cn/EN/7f/6b/c7136a163691/page.htm), [Nanjing University](https://www.nju.edu.cn/EN/main.htm), advised by Prof.  [Wei Hu (胡伟)](http://ws.nju.edu.cn/wiki/Wiki.jsp?page=Wei%20Hu).
+I am Botao Yu (余博涛), a first-year PhD student at [The Ohio State University](https://www.osu.edu/), advised by Prof. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/). Previously, I earned my Master's degree at [Nanjing University](https://www.nju.edu.cn/en/), supervised by Prof. [Wei Hu (胡伟)](http://ws.nju.edu.cn/wiki/Wiki.jsp?page=Wei%20Hu).
 
-I am very fortunate to work with [Xu Tan (谭旭)](https://www.microsoft.com/en-us/research/people/xuta), [Peiling Lu (卢佩玲)](https://www.microsoft.com/en-us/research/people/peil), and [Rui Wang (王蕊)](https://www.microsoft.com/en-us/research/people/ruiwa) from [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia), and Prof. [Muhao Chen](https://muhaochen.github.io/) from [University of Southern California](https://www.usc.edu/).
-
-My **research interest** includes <u>NLP</u>, <u>AI music</u>, and <u>deep learning</u>. I have experience in information extraction, symbolic music generation and understanding, and deep learning models.
-
-😋 I am going to join The Ohio State University as a Ph.D. student in this autumn!
+My **research interest** includes <u>NLP</u>, <u>deep learning</u>, and <u>AI music</u>.
 
 # 🔥 News
-
+- 2023.08: Arrived at Columbus. My PhD journey officially starts 😋!
 - 2022.09: Our paper [Museformer](#pub-museformer) is accepted by NeurIPS 2022!
 - 2022.07: Our paper [MeloForm](#pub-meloform) is accepted by ISMIR 2022!
 
@@ -72,15 +68,19 @@ To solve the long sequence modeling and music structure modeling problem in symb
 
 
 # 📖 Education
-- 2019.09 - Now &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nanjing China
+- 2023.08 - Now &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Columbus, USA
+
+  PhD student in Computer Science and Engineering @ The Ohio State University
+
+- 2019.09 - 2023.06 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nanjing, China
 
   Master's student in Computer Science @ Nanjing University (南京大学)
 
-- 2015.09 - 2019.06 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dalian China
+- 2015.09 - 2019.06 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dalian, China
 
   Undergraduate student in Software Engineering @ Dalian University of Technology (大连理工大学)
 
-- 2012.09 - 2015.06 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Changsha China
+- 2012.09 - 2015.06 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Changsha, China
 
   High school student @ The High School Attached To Hunan Normal University (湖南师大附中)
 
@@ -95,4 +95,4 @@ To solve the long sequence modeling and music structure modeling problem in symb
 
 ---
 
-*Last modified: April 20, 2023*
+*Last modified: August 28, 2023*
