@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Botao Yu (余博涛) - Homepage"
-description              : "Master's student at Nanjing University. Focusing on NLP, music and deep learning."
+description              : "PhD student at The Ohio State Univeersity, focusing on NLP and deep learning."
 repository               : "btyu/btyu.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,9 +22,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Botao Yu (余博涛)"
-  avatar           : "images/avatar.jpg"
+  avatar           : "images/avatar.png"
   bio              : "Code a terrific CS life."
-  location         : "Nanjing, China"
+  location         : "Columbus, USA"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=NbWw60wAAAAJ"
