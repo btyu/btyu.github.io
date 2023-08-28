@@ -85,7 +85,7 @@ To solve the long sequence modeling and music structure modeling problem in symb
   High school student @ The High School Attached To Hunan Normal University (湖南师大附中)
 
 # 💻 Internship
-- 2021.04 - 2022.03 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Beijing China
+- 2021.04 - 2022.03 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Beijing, China
   
   Research intern @ Microsoft Research Asia (微软亚洲研究院)
 
