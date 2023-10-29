@@ -34,8 +34,9 @@ My **research interest** includes <u>NLP</u>, <u>deep learning</u>, and <u>AI mu
 <span class='anchor' id='pub-museformer'></span>
 
 - [**NeurIPS 2022**] Museformer: Transformer with Fine- and Coarse-Grained Attention for Music Generation
-  **Botao Yu**, Peiling Lu, Rui Wang, Wei Hu, Xu Tan, Wei Ye, Shikun Zhang, Tao Qin, Tie-Yan Liu
 
+  **Botao Yu**, Peiling Lu, Rui Wang, Wei Hu, Xu Tan, Wei Ye, Shikun Zhang, Tao Qin, Tie-Yan Liu
+  
   [[Paper](https://openreview.net/forum?id=GFiqdZOm-Ei))]     [[Code](https://github.com/microsoft/muzic/tree/main/museformer)]     [[Demo](https://ai-muzic.github.io/museformer)]
 
 <span class='anchor' id='pub-meloform'></span>
@@ -103,4 +104,4 @@ My **research interest** includes <u>NLP</u>, <u>deep learning</u>, and <u>AI mu
 
 ---
 
-*Last modified: August 28, 2023*
+*Last modified: October 29, 2023*
