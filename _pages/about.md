@@ -26,25 +26,17 @@ My **research interest** includes <u>NLP</u>, <u>deep learning</u>, and <u>AI mu
 # 🔥 News
 - 2023.08: Arrived at Columbus. My PhD journey officially starts 😋!
 - 2022.09: Our paper [Museformer](#pub-museformer) is accepted by NeurIPS 2022!
-- 2022.07: Our paper [MeloForm](#pub-meloform) is accepted by ISMIR 2022!
 
 # 📝 Publication
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2022</div><img src='images/thumbnails/museformer.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+## AI Music
+
 <span class='anchor' id='pub-museformer'></span>
-[<b>NeurIPS 2022</b>] Museformer: Transformer with Fine- and Coarse-Grained Attention for Music Generation
 
+- [**NeurIPS 2022**] Museformer: Transformer with Fine- and Coarse-Grained Attention for Music Generation
+  **Botao Yu**, Peiling Lu, Rui Wang, Wei Hu, Xu Tan, Wei Ye, Shikun Zhang, Tao Qin, Tie-Yan Liu
 
-
-**Botao Yu**, Peiling Lu, Rui Wang, Wei Hu, Xu Tan, Wei Ye, Shikun Zhang, Tao Qin, Tie-Yan Liu
-
-[[Paper](https://arxiv.org/abs/2210.10349/)]     [[Code](https://github.com/microsoft/muzic/tree/main/museformer/)]     [[Demo](https://ai-muzic.github.io/museformer/)]
-
-To solve the long sequence modeling and music structure modeling problem in symbolic music generation, we propose Museformer, a Transformer variant that combines a fine-grained attention for learning the structure-related correlations and a coarse-grained attention for preserving other contextual information at a low cost.
-
-</div>
-</div>
+  [[Paper](https://openreview.net/forum?id=GFiqdZOm-Ei))]     [[Code](https://github.com/microsoft/muzic/tree/main/museformer)]     [[Demo](https://ai-muzic.github.io/museformer)]
 
 <span class='anchor' id='pub-meloform'></span>
 
@@ -52,13 +44,29 @@ To solve the long sequence modeling and music structure modeling problem in symb
 
   Peiling Lu, Xu Tan, **Botao Yu**, Tao Qin, Sheng Zhao, Tie-Yan Liu
 
-  [[Paper](https://arxiv.org/abs/2208.14345/)]     [[Code](https://github.com/microsoft/muzic/tree/main/meloform)]     [[Demo](https://ai-muzic.github.io/meloform/)]
+  [[Paper](https://arxiv.org/abs/2208.14345)]     [[Code](https://github.com/microsoft/muzic/tree/main/meloform)]     [[Demo](https://ai-muzic.github.io/meloform)]
+
+**Preprints**:
+
+- MuseCoco: Generating Symbolic Music from Text
+
+  Peiling Lu\*, Xin Xu\*, Chenfei Kang\*, **Botao Yu**\*, Chengyi Xing\*, Xu Tan, Jiang Bian     (* equal contribution)
+
+  [[Paper](https://arxiv.org/abs/2306.00110)]     [[Code](https://github.com/microsoft/muzic/tree/main/musecoco)]     [[Demo](https://ai-muzic.github.io/musecoco)]
+
+- EmoGen: Eliminating Subjective Bias in Emotional Music Generation
+
+  Chenfei Kang, Peiling Lu, **Botao Yu**, Xu Tan, Wei Ye, Shikun Zhang, Jiang Bian
+
+  [[Paper](https://arxiv.org/abs/2307.01229)]     [[Code](https://github.com/microsoft/muzic/tree/main/emogen)]     [[Demo](https://ai-muzic.github.io/emogen)]
+
+## NLP
 
 - [**EMNLP 2021**] Knowing False Negatives: An Adversarial Training Method for Distantly Supervised Relation Extraction
 
   Kailong Hao, **Botao Yu**, Wei Hu
 
-  [[Paper](https://aclanthology.org/2021.emnlp-main.761/)]     [[Code](https://github.com/nju-websoft/fan/)]
+  [[Paper](https://aclanthology.org/2021.emnlp-main.761)]     [[Code](https://github.com/nju-websoft/fan)]
 
 - [**APWeb-WAIM 2020**] Joint Reasoning of Events, Participants and Locations for Plot Relation Recognition
 
