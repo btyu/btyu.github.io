@@ -26,6 +26,7 @@ My **research interest** includes <u>NLP</u>, <u>deep learning</u>, and <u>AI mu
 # 🔥 News
 - 2023.11: Please check out [MMMU](#pub-mmmu), a Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI.
 - 2023.08: Arrived at Columbus. My PhD journey officially starts 😋!
+- 2023.05: Please checkout [MuseCoco](#pub-musecoco), a text-to-music generation system.
 - 2022.09: Our paper [Museformer](#pub-museformer) is accepted by NeurIPS 2022!
 
 # 📝 Publication
@@ -38,7 +39,7 @@ My **research interest** includes <u>NLP</u>, <u>deep learning</u>, and <u>AI mu
 
   Xiang Yue, Yuansheng Ni, Kai Zhang, Tianyu Zheng, Ruoqi Liu, Ge Zhang, Samuel Stevens, Dongfu Jiang, Weiming Ren, Yuxuan Sun, Cong Wei, **Botao Yu**, Ruibin Yuan, Renliang Sun, Ming Yin, Boyuan Zheng, Zhenzhu Yang, Yibo Liu, Wenhao Huang, Huan Sun, Yu Su, Wenhu Chen
 
-  [[Paper](https://arxiv.org/abs/2306.00110)] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[Code](https://github.com/MMMU-Benchmark/MMMU)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[HF Dataset](https://huggingface.co/datasets/MMMU/MMMU)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[Page](https://mmmu-benchmark.github.io/)]
+  [[Paper](https://arxiv.org/abs/2306.00110)] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[Code](https://github.com/MMMU-Benchmark/MMMU)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[HF Dataset](https://huggingface.co/datasets/MMMU/MMMU)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[Page](https://mmmu-benchmark.github.io)]
 
 - [**EMNLP 2021**] Knowing False Negatives: An Adversarial Training Method for Distantly Supervised Relation Extraction
 
@@ -54,7 +55,7 @@ My **research interest** includes <u>NLP</u>, <u>deep learning</u>, and <u>AI mu
 
 ## AI Music
 
-
+<span class='anchor' id='pub-musecoco'></span>
 
 - [**Preprint 2023**] MuseCoco: Generating Symbolic Music from Text
 
