@@ -26,7 +26,7 @@ My **research interest** includes <u>NLP</u>, <u>deep learning</u>, and <u>AI mu
 # 🔥 News
 - 2023.11: Please check out [MMMU](#pub-mmmu), a Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI.
 - 2023.08: Arrived at Columbus. My PhD journey officially starts 😋!
-- 2023.05: Please checkout [MuseCoco](#pub-musecoco), a text-to-music generation system.
+- 2023.05: Please check out [MuseCoco](#pub-musecoco), a text-to-music generation system.
 - 2022.09: Our paper [Museformer](#pub-museformer) is accepted by NeurIPS 2022!
 
 # 📝 Publication
