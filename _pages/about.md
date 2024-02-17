@@ -19,17 +19,28 @@ redirect_from:
 
 Hi, nice to meet you!
 
-I am Botao Yu (余博涛), a first-year PhD student at [The Ohio State University](https://www.osu.edu/), advised by Prof. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/). Previously, I earned my Master's degree at [Nanjing University](https://www.nju.edu.cn/en/), supervised by Prof. [Wei Hu (胡伟)](http://ws.nju.edu.cn/wiki/Wiki.jsp?page=Wei%20Hu).
+I am Botao Yu (余博涛), a first-year PhD student at [The Ohio State University](https://www.osu.edu/), advised by Prof. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/). Previously, I earned my Master's degree at [Nanjing University](https://www.nju.edu.cn/en/), advised by Prof. [Wei Hu (胡伟)](http://ws.nju.edu.cn/wiki/Wiki.jsp?page=Wei%20Hu).
 
-My **research interest** includes <u>NLP</u>, <u>deep learning</u>, and <u>AI music</u>.
+My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>NLP</u>, <u>AI music</u>, and <u>deep learning</u>.
 
 # 🔥 News
+- 2024.02: Check out [LlaSMol](#pub-llasmol), a series of LLMs that significantly outperform GPT-4 on chemistry tasks.
 - 2023.11: Please check out [MMMU](#pub-mmmu), a Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI.
 - 2023.08: Arrived at Columbus. My PhD journey officially starts 😋!
 - 2023.05: Please check out [MuseCoco](#pub-musecoco), a text-to-music generation system.
 - 2022.09: Our paper [Museformer](#pub-museformer) is accepted by NeurIPS 2022!
 
 # 📝 Publication
+
+## AI for Science
+
+<span class='anchor' id='pub-llasmol'></span>
+- [**Preprint 2024**] LlaSMol: Advancing Large Language Models for Chemistry with a Large-Scale, Comprehensive, High-Quality Instruction Tuning Dataset
+
+  **Botao Yu**, Frazier N. Baker\*, Ziqi Chen\*, Xia Ning, Huan Sun &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (* equal contribution)
+
+  [[Paper](https://arxiv.org/abs/2402.09391)] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[Page](https://osu-nlp-group.github.io/LLM4Chem/)] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[Dataset](https://huggingface.co/osunlp/LlaSMol-Mistral-7B)] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[Model](https://huggingface.co/osunlp/LlaSMol-Mistral-7B)] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[Code](https://github.com/OSU-NLP-Group/LLM4Chem)]
+
 
 ## NLP
 
@@ -39,7 +50,7 @@ My **research interest** includes <u>NLP</u>, <u>deep learning</u>, and <u>AI mu
 
   Xiang Yue, Yuansheng Ni, Kai Zhang, Tianyu Zheng, Ruoqi Liu, Ge Zhang, Samuel Stevens, Dongfu Jiang, Weiming Ren, Yuxuan Sun, Cong Wei, **Botao Yu**, Ruibin Yuan, Renliang Sun, Ming Yin, Boyuan Zheng, Zhenzhu Yang, Yibo Liu, Wenhao Huang, Huan Sun, Yu Su, Wenhu Chen
 
-  [[Paper](https://arxiv.org/abs/2306.00110)] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[Code](https://github.com/MMMU-Benchmark/MMMU)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[HF Dataset](https://huggingface.co/datasets/MMMU/MMMU)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[Page](https://mmmu-benchmark.github.io)]
+  [[Paper](https://arxiv.org/abs/2306.00110)] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[Code](https://github.com/MMMU-Benchmark/MMMU)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Dataset](https://huggingface.co/datasets/MMMU/MMMU)]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[Page](https://mmmu-benchmark.github.io)]
 
 - [**EMNLP 2021**] Knowing False Negatives: An Adversarial Training Method for Distantly Supervised Relation Extraction
 
@@ -112,4 +123,4 @@ My **research interest** includes <u>NLP</u>, <u>deep learning</u>, and <u>AI mu
 
 ---
 
-*Last modified: November 28, 2023*
+*Last modified: April 16, 2024*
