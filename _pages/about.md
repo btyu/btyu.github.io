@@ -24,14 +24,12 @@ I am Botao Yu (余博涛), a first-year PhD student at [The Ohio State Universit
 My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>LLMs</u>, <u>NLP</u>, <u>AI music</u>, and <u>deep learning</u>.
 
 # 🔥 News
-- 2024.09: Please check out [MMMU-Pro](#pub-mmmupro), an enhanced version of [MMMU](#pub-mmmu) featuring full-vision evaluation.
-- 2024.07: Our paper [LlaSMol](#pub-llasmol) is accepted by COLM 2024!
-- 2024.04: Our paper [MMMU](#pub-mmmu) is selected as Oral at CVPR 2024 (0.8%)!
-- 2024.02: Please check out [LlaSMol](#pub-llasmol), a series of LLMs that significantly outperform GPT-4 on chemistry tasks.
-- 2023.11: Please check out [MMMU](#pub-mmmu), a Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI.
+- 2024.09: Please check out our new preprint [MMMU-Pro](#pub-mmmupro), an enhanced version of [MMMU](#pub-mmmu) featuring full-vision evaluation.
+- 2024.07: Our paper [LlaSMol](#pub-llasmol) is accepted to COLM 2024 🎉!
+- 2024.05: Our paper [MMMU](#pub-mmmu) is selected as Oral (0.8%) and nominated for best paper (24 in total) at CVPR 2024 🎊!
 - 2023.08: Arrived at Columbus. My PhD journey officially starts 😋!
-- 2023.05: Please check out [MuseCoco](#pub-musecoco), a text-to-music generation system.
-- 2022.09: Our paper [Museformer](#pub-museformer) is accepted by NeurIPS 2022!
+- 2023.05: Please check out our preprint [MuseCoco](#pub-musecoco), a text-to-music generation system.
+- 2022.09: Our paper [Museformer](#pub-museformer) is accepted to NeurIPS 2022 🎉!
 
 # 📝 Publication
 
@@ -50,27 +48,27 @@ My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>LLMs</u>
   </label>
 </div>
 
-<div id="no-publications-message">Please use the above keywords to filter the publications.</div>
+<div id="no-publications-message">Sadly, there are no such publications.</div>
 
 <div id="publications">
   <ul>
+    <span class='anchor' id='pub-mmmupro'></span>
     <li class="publication" data-keywords="nlp cv">
-      <span class='anchor' id='pub-mmmupro'></span>
       <h3>[Preprint 2024] MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark</h3>
       <div class="authors">Xiang Yue*, Tianyu Zheng*, Yuansheng Ni*, Yubo Wang, Kai Zhang, Shengbang Tong, Yuxuan Sun, Ming Yin, <strong>Botao Yu</strong>, Ge Zhang, Huan Sun, Yu Su, Wenhu Chen, Graham Neubig (* equal contribution)</div>
+      <div class="description">An enhanced version of MMMU featuring full-vision evaluation for multi-discipline multimodal understanding.</div>
       <div class="links">
-        <a href="https://arxiv.org/abs/2402.09391">Paper</a>
-        <a href="https://osu-nlp-group.github.io/LLM4Chem/">Page</a>
-        <a href="https://huggingface.co/datasets/osunlp/SMolInstruct">Dataset</a>
-        <a href="https://huggingface.co/osunlp/LlaSMol-Mistral-7B">Model</a>
-        <a href="https://github.com/OSU-NLP-Group/LLM4Chem">Code</a>
+        <a href="https://arxiv.org/abs/2409.02813">Paper</a>
+        <a href="https://mmmu-benchmark.github.io/#leaderboard">Page</a>
+        <a href="https://huggingface.co/datasets/MMMU/MMMU_Pro">Dataset</a>
       </div>
     </li>
 
+    <span class='anchor' id='pub-llasmol'></span>
     <li class="publication" data-keywords="ai-chemistry nlp" data-first-author="true">
-      <span class='anchor' id='pub-llasmol'></span>
       <h3>[COLM 2024] LlaSMol: Advancing Large Language Models for Chemistry with a Large-Scale, Comprehensive, High-Quality Instruction Tuning Dataset</h3>
       <div class="authors"><strong>Botao Yu</strong>, Frazier N. Baker*, Ziqi Chen*, Xia Ning, Huan Sun (* equal contribution)</div>
+      <div class="description">We propose a carefully curated chemistry task dataset for instruction tuning and a series of LLMs that significantly outperform GPT-4 and Claude-3-Opus on various chemistry tasks.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2402.09391">Paper</a>
         <a href="https://osu-nlp-group.github.io/LLM4Chem/">Page</a>
@@ -80,63 +78,69 @@ My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>LLMs</u>
       </div>
     </li>
 
+    <span class='anchor' id='pub-mmmu'></span>
     <li class="publication" data-keywords="nlp cv">
-      <span class='anchor' id='pub-mmmu'></span>
       <h3>[CVPR 2024 Oral] MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI</h3>
       <div class="authors">Xiang Yue*, Yuansheng Ni*, Kai Zhang*, Tianyu Zheng*, Ruoqi Liu, Ge Zhang, Samuel Stevens, Dongfu Jiang, Weiming Ren, Yuxuan Sun, Cong Wei, <strong>Botao Yu</strong>, Ruibin Yuan, Renliang Sun, Ming Yin, Boyuan Zheng, Zhenzhu Yang, Yibo Liu, Wenhao Huang, Huan Sun*, Yu Su*, Wenhu Chen* (* core contributors)</div>
+      <div class="description">This paper proposes a massive multi-discipline multimodal understanding and reasoning benchmark for expert AGI.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2311.16502">Paper</a>
-        <a href="https://github.com/MMMU-Benchmark/MMMU">Code</a>
-        <a href="https://huggingface.co/datasets/MMMU/MMMU">Dataset</a>
         <a href="https://mmmu-benchmark.github.io">Page</a>
+        <a href="https://huggingface.co/datasets/MMMU/MMMU">Dataset</a>
+        <a href="https://github.com/MMMU-Benchmark/MMMU">Code</a>
       </div>
     </li>
 
+    <span class='anchor' id='pub-musecoco'></span>
     <li class="publication" data-keywords="ai-music nlp" data-first-author="true">
-      <span class='anchor' id='pub-musecoco'></span>
       <h3>[Preprint 2023] MuseCoco: Generating Symbolic Music from Text</h3>
       <div class="authors">Peiling Lu*, Xin Xu*, Chenfei Kang*, <strong>Botao Yu</strong>*, Chengyi Xing*, Xu Tan, Jiang Bian (* equal contribution)</div>
+      <div class="description">A two-stage text-to-music generation system for creating symbolic music from textual descriptions.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2306.00110">Paper</a>
+        <a href="https://ai-muzic.github.io/musecoco">Page</a>
         <a href="https://github.com/microsoft/muzic/tree/main/musecoco">Code</a>
-        <a href="https://ai-muzic.github.io/musecoco">Demo</a>
       </div>
     </li>
 
     <li class="publication" data-keywords="ai-music">
       <h3>[Preprint 2023] EmoGen: Eliminating Subjective Bias in Emotional Music Generation</h3>
       <div class="authors">Chenfei Kang, Peiling Lu, <strong>Botao Yu</strong>, Xu Tan, Wei Ye, Shikun Zhang, Jiang Bian</div>
+      <div class="description">A method for generating emotional music while reducing subjective bias in the process.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2307.01229">Paper</a>
+        <a href="https://ai-muzic.github.io/emogen">Page</a>
         <a href="https://github.com/microsoft/muzic/tree/main/emogen">Code</a>
-        <a href="https://ai-muzic.github.io/emogen">Demo</a>
       </div>
     </li>
 
+    <span class='anchor' id='pub-museformer'></span>
     <li class="publication" data-keywords="ai-music" data-first-author="true">
-      <span class='anchor' id='pub-museformer'></span>
       <h3>[NeurIPS 2022] Museformer: Transformer with Fine- and Coarse-Grained Attention for Music Generation</h3>
       <div class="authors"><strong>Botao Yu</strong>, Peiling Lu, Rui Wang, Wei Hu, Xu Tan, Wei Ye, Shikun Zhang, Tao Qin, Tie-Yan Liu</div>
+      <div class="description">We propose a fine- and coarse-grained attention mechanism for modeling the structures of music.</div>
       <div class="links">
         <a href="https://openreview.net/forum?id=GFiqdZOm-Ei">Paper</a>
+        <a href="https://ai-muzic.github.io/museformer">Page</a>
         <a href="https://github.com/microsoft/muzic/tree/main/museformer">Code</a>
-        <a href="https://ai-muzic.github.io/museformer">Demo</a>
       </div>
     </li>
 
     <li class="publication" data-keywords="ai-music">
       <h3>[ISMIR 2022] MeloForm: Generating Melody with Musical Form Based on Expert Systems and Neural Networks</h3>
       <div class="authors">Peiling Lu, Xu Tan, <strong>Botao Yu</strong>, Tao Qin, Sheng Zhao, Tie-Yan Liu</div>
+      <div class="description">A system for generating melodies with musical form using a combination of expert systems and neural networks.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2208.14345">Paper</a>
+        <a href="https://ai-muzic.github.io/meloform">Page</a>
         <a href="https://github.com/microsoft/muzic/tree/main/meloform">Code</a>
-        <a href="https://ai-muzic.github.io/meloform">Demo</a>
       </div>
     </li>
 
     <li class="publication" data-keywords="nlp">
       <h3>[EMNLP 2021] Knowing False Negatives: An Adversarial Training Method for Distantly Supervised Relation Extraction</h3>
       <div class="authors">Kailong Hao, <strong>Botao Yu</strong>, Wei Hu</div>
+      <div class="description">An adversarial training method to improve distantly supervised relation extraction by addressing false negatives.</div>
       <div class="links">
         <a href="https://aclanthology.org/2021.emnlp-main.761">Paper</a>
         <a href="https://github.com/nju-websoft/fan">Code</a>
@@ -146,6 +150,7 @@ My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>LLMs</u>
     <li class="publication" data-keywords="nlp">
       <h3>[APWeb-WAIM 2020] Joint Reasoning of Events, Participants and Locations for Plot Relation Recognition</h3>
       <div class="authors">Shengguang Qiu, <strong>Botao Yu</strong>, Lei Qian, Qiang Guo, Wei Hu</div>
+      <div class="description">A method for recognizing plot relations by jointly reasoning about events, participants, and locations in narratives.</div>
       <div class="links">
         <a href="https://link.springer.com/chapter/10.1007/978-3-030-60259-8_51">Paper</a>
       </div>
@@ -179,7 +184,7 @@ My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>LLMs</u>
 
 <div style="height: 32vh;"></div>
 
----
+<div class="micro-text">Psst! 🔍 Kudos on your keen eye! Didn't expect anyone to notice this microscopic text. Since you've ventured this far, fancy embarking on a friendship adventure?</div>
 
 *Last modified: Sep 5, 2024*
 
@@ -204,14 +209,22 @@ My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>LLMs</u>
 
   #publications h3 {
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: #333;
   }
 
   .authors {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-style: italic;
     color: #555;
+  }
+
+  .description {
+    margin-bottom: 15px;
+  }
+
+  .links {
+    margin-top: 10px;
   }
 
   .links a {
@@ -241,7 +254,6 @@ My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>LLMs</u>
     color: #666;
   }
 
-  /* Keyword buttons and first author toggle container */
   .keyword-buttons {
     display: flex;
     align-items: center;
@@ -250,7 +262,6 @@ My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>LLMs</u>
     margin-bottom: 20px;
   }
 
-  /* Keyword buttons */
   .keyword-btn {
     display: inline-block;
     margin-right: 10px;
@@ -276,7 +287,6 @@ My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>LLMs</u>
     color: white;
   }
 
-  /* First author toggle */
   .first-author-label {
     display: flex;
     align-items: center;
@@ -329,6 +339,12 @@ My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>LLMs</u>
 
   input:checked + .slider:before {
     transform: translateX(26px);
+  }
+
+  .micro-text {
+    font-size: 2px;
+    color: #999;
+    margin-bottom: 5px;
   }
 </style>
 
