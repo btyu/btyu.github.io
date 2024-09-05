@@ -54,7 +54,7 @@ My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>LLMs</u>
 
 <div id="publications">
   <ul>
-    <li class="publication" data-keywords="nlp cv" data-first-author="true">
+    <li class="publication" data-keywords="nlp cv">
       <span class='anchor' id='pub-llasmol'></span>
       <h3>[Preprint 2024] MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark</h3>
       <div class="authors">Xiang Yue*, Tianyu Zheng*, Yuansheng Ni*, Yubo Wang, Kai Zhang, Shengbang Tong, Yuxuan Sun, Ming Yin, <strong>Botao Yu</strong>, Ge Zhang, Huan Sun, Yu Su, Wenhu Chen, Graham Neubig (* equal contribution)</div>
@@ -83,9 +83,9 @@ My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>LLMs</u>
     <li class="publication" data-keywords="nlp cv">
       <span class='anchor' id='pub-mmmu'></span>
       <h3>[CVPR 2024 Oral] MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI</h3>
-      <div class="authors">Xiang Yue, Yuansheng Ni, Kai Zhang, Tianyu Zheng, Ruoqi Liu, Ge Zhang, Samuel Stevens, Dongfu Jiang, Weiming Ren, Yuxuan Sun, Cong Wei, <strong>Botao Yu</strong>, Ruibin Yuan, Renliang Sun, Ming Yin, Boyuan Zheng, Zhenzhu Yang, Yibo Liu, Wenhao Huang, Huan Sun, Yu Su, Wenhu Chen</div>
+      <div class="authors">Xiang Yue*, Yuansheng Ni*, Kai Zhang*, Tianyu Zheng*, Ruoqi Liu, Ge Zhang, Samuel Stevens, Dongfu Jiang, Weiming Ren, Yuxuan Sun, Cong Wei, <strong>Botao Yu</strong>, Ruibin Yuan, Renliang Sun, Ming Yin, Boyuan Zheng, Zhenzhu Yang, Yibo Liu, Wenhao Huang, Huan Sun*, Yu Su*, Wenhu Chen* (* core contributors)</div>
       <div class="links">
-        <a href="https://arxiv.org/abs/2306.00110">Paper</a>
+        <a href="https://arxiv.org/abs/2311.16502">Paper</a>
         <a href="https://github.com/MMMU-Benchmark/MMMU">Code</a>
         <a href="https://huggingface.co/datasets/MMMU/MMMU">Dataset</a>
         <a href="https://mmmu-benchmark.github.io">Page</a>
