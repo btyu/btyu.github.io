@@ -55,7 +55,7 @@ My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>LLMs</u>
 <div id="publications">
   <ul>
     <li class="publication" data-keywords="nlp cv">
-      <span class='anchor' id='pub-llasmol'></span>
+      <span class='anchor' id='pub-mmmupro'></span>
       <h3>[Preprint 2024] MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark</h3>
       <div class="authors">Xiang Yue*, Tianyu Zheng*, Yuansheng Ni*, Yubo Wang, Kai Zhang, Shengbang Tong, Yuxuan Sun, Ming Yin, <strong>Botao Yu</strong>, Ge Zhang, Huan Sun, Yu Su, Wenhu Chen, Graham Neubig (* equal contribution)</div>
       <div class="links">
