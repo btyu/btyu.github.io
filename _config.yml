@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Botao Yu (余博涛) - Homepage"
-description              : "PhD student at The Ohio State University, focusing on NLP and deep learning."
+description              : "PhD student at The Ohio State University, focusing on AI for Chemistry and LLMs."
 repository               : "btyu/btyu.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,7 +24,7 @@ author:
   name             : "Botao Yu (余博涛)"
   avatar           : "images/avatar.png"
   bio              : "Code a terrific CS life."
-  location         : "Columbus, USA"
+  location         : "Columbus, OH, USA"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=NbWw60wAAAAJ"
