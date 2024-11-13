@@ -21,10 +21,12 @@ Hi, nice to meet you!
 
 I am Botao Yu (余博涛), a first-year PhD student at [The Ohio State University](https://www.osu.edu/), advised by Prof. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/). Previously, I earned my Master's degree at [Nanjing University](https://www.nju.edu.cn/en/), advised by Prof. [Wei Hu (胡伟)](http://ws.nju.edu.cn/wiki/Wiki.jsp?page=Wei%20Hu).
 
-My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>LLMs</u>, <u>NLP</u>, <u>AI music</u>, and <u>deep learning</u>.
+My **research interest** includes <u>AI for Science (esp. Chemistry)</u>, <u>LLMs</u>, <u>NLP</u>, <u>AI music</u>, and <u>deep learning</u>.
 
 # 🔥 News
-- 2024.09: Please check out our new preprint [MMMU-Pro](#pub-mmmupro), an enhanced version of [MMMU](#pub-mmmu) featuring full-vision evaluation.
+- 2024.11: Please check out our new preprint [ChemAgent](#pub-chemagent), an enhanced chemistry agent and its performance on various chemistry problems.
+- 2024.10: Please check out our new preprint [ScienceAgentBench](#pub-scienceagentbench), a benchmark to assess language models in scientific tasks.
+- 2024.09: Check out our new preprint [MMMU-Pro](#pub-mmmupro), an enhanced version of [MMMU](#pub-mmmu) featuring full-vision evaluation.
 - 2024.07: Our paper [LlaSMol](#pub-llasmol) is accepted to COLM 2024 🎉!
 - 2024.05: Our paper [MMMU](#pub-mmmu) is selected as Oral (0.8%) and nominated for best paper (24 in total) at CVPR 2024 🎊!
 - 2023.08: Arrived at Columbus. My PhD journey officially starts 😋!
@@ -35,7 +37,7 @@ My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>LLMs</u>
 
 <div class="keyword-buttons">
   <button class="keyword-btn" data-keyword="all">All</button>
-  <button class="keyword-btn" data-keyword="ai-chemistry">AI for Chemistry</button>
+  <button class="keyword-btn" data-keyword="ai-science">AI for Science</button>
   <button class="keyword-btn" data-keyword="nlp">NLP</button>
   <button class="keyword-btn" data-keyword="ai-music">AI Music</button>
   <button class="keyword-btn" data-keyword="cv">CV</button>
@@ -52,6 +54,31 @@ My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>LLMs</u>
 
 <div id="publications">
   <ul>
+    <span class='anchor' id='pub-chemagent'></span>
+    <li class="publication" data-keywords="ai-science nlp" data-first-author="true">
+      <h3>[Preprint 2024] Tooling or Not Tooling? The Impact of Tools on Language Agents for Chemistry Problem Solving</h3>
+      <div class="authors"><strong>Botao Yu</strong>, Frazier N. Baker*, Ziru Chen*, Garrett Herb, Boyu Gou, Daniel Adu-Ampratwum, Xia Ning, Huan Sun (* equal contribution)</div>
+      <div class="description">We propose a tool-augmented language agent for chemistry named ChemAgent, and evaluate it on both specialized chemistry tasks and general chemistry questions. The results show that tools cannot always help and may cause more reasoning errors.</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2411.07228">Paper</a>
+        <a href="https://osu-nlp-group.github.io/ChemAgent/">Page</a>
+        <a href="https://github.com/OSU-NLP-Group/ChemAgent">Code</a>
+      </div>
+    </li>
+
+    <span class='anchor' id='pub-scienceagentbench'></span>
+    <li class="publication" data-keywords="ai-science nlp">
+      <h3>[Preprint 2024] ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery</h3>
+      <div class="authors">Ziru Chen, Shijie Chen, Yuting Ning, Qianheng Zhang, Boshi Wang, <strong>Botao Yu</strong>, Yifei Li, Zeyi Liao, Chen Wei, Zitong Lu, Vishal Dey, Mingyi Xue, Frazier N. Baker, Benjamin Burns, Daniel Adu-Ampratwum, Xuhui Huang, Xia Ning, Song Gao, Yu Su, Huan Sun</div>
+      <div class="description">The study introduces a benchmark for evaluating language models in scientific discovery, using 102 tasks from peer-reviewed publications and expert validation. It reveals current limitations in code generation, highlighting the need for rigorous task assessments.</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2410.05080">Paper</a>
+        <a href="https://osu-nlp-group.github.io/ScienceAgentBench/">Page</a>
+        <a href="https://huggingface.co/datasets/osunlp/ScienceAgentBench">Benchmark</a>
+        <a href="https://github.com/OSU-NLP-Group/ScienceAgentBench">Code</a>
+      </div>
+    </li>
+
     <span class='anchor' id='pub-mmmupro'></span>
     <li class="publication" data-keywords="nlp cv">
       <h3>[Preprint 2024] MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark</h3>
@@ -65,7 +92,7 @@ My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>LLMs</u>
     </li>
 
     <span class='anchor' id='pub-llasmol'></span>
-    <li class="publication" data-keywords="ai-chemistry nlp" data-first-author="true">
+    <li class="publication" data-keywords="ai-science nlp" data-first-author="true">
       <h3>[COLM 2024] LlaSMol: Advancing Large Language Models for Chemistry with a Large-Scale, Comprehensive, High-Quality Instruction Tuning Dataset</h3>
       <div class="authors"><strong>Botao Yu</strong>, Frazier N. Baker*, Ziqi Chen*, Xia Ning, Huan Sun (* equal contribution)</div>
       <div class="description">We propose a carefully curated chemistry task dataset for instruction tuning and a series of LLMs that significantly outperform GPT-4 and Claude-3-Opus on various chemistry tasks.</div>
@@ -75,6 +102,7 @@ My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>LLMs</u>
         <a href="https://huggingface.co/datasets/osunlp/SMolInstruct">Dataset</a>
         <a href="https://huggingface.co/osunlp/LlaSMol-Mistral-7B">Model</a>
         <a href="https://github.com/OSU-NLP-Group/LLM4Chem">Code</a>
+        <a href="https://github.com/btyu/btyu.github.io/blob/main/static/poster/llasmol_poster.pdf">Poster</a>
       </div>
     </li>
 
@@ -123,6 +151,7 @@ My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>LLMs</u>
         <a href="https://openreview.net/forum?id=GFiqdZOm-Ei">Paper</a>
         <a href="https://ai-muzic.github.io/museformer">Page</a>
         <a href="https://github.com/microsoft/muzic/tree/main/museformer">Code</a>
+        <a href="https://github.com/btyu/btyu.github.io/blob/main/static/poster/museformer_poster.pdf">Poster</a>
       </div>
     </li>
 
@@ -186,7 +215,7 @@ My **research interest** includes <u>AI for Science (Chemistry)</u>, <u>LLMs</u>
 
 <div class="micro-text">Psst! 🔍 Kudos on your keen eye! Didn't expect anyone to notice this microscopic text. Since you've ventured this far, fancy embarking on a friendship adventure?</div>
 
-*Last modified: Sep 5, 2024*
+*Last modified: Nov. 13, 2024*
 
 <style>
   #publications ul {
