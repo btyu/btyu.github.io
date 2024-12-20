@@ -21,7 +21,10 @@ Hi, nice to meet you!
 
 I am Botao Yu (余博涛), a first-year PhD student at [The Ohio State University](https://www.osu.edu/), advised by Prof. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/). Previously, I earned my Master's degree at [Nanjing University](https://www.nju.edu.cn/en/), advised by Prof. [Wei Hu (胡伟)](http://ws.nju.edu.cn/wiki/Wiki.jsp?page=Wei%20Hu).
 
-My **research interest** includes <u>AI for Science (esp. Chemistry)</u>, <u>LLMs</u>, <u>NLP</u>, <u>AI music</u>, and <u>deep learning</u>.
+My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for Science (esp. Chemistry)</u>, <u>NLP</u>, <u>AI music</u>, and <u>deep learning</u>.
+
+🚀 Seeking an internship position for summer 2025!
+
 
 # 🔥 News
 - 2024.11: Please check out our new preprint [ChemAgent](#pub-chemagent), an enhanced chemistry agent and its performance on various chemistry problems.
@@ -213,9 +216,13 @@ My **research interest** includes <u>AI for Science (esp. Chemistry)</u>, <u>LLM
 
 <div style="height: 32vh;"></div>
 
+<a href="https://clustrmaps.com/site/1c3ca" title="ClustrMaps" style="display: none;">
+  <img src="//www.clustrmaps.com/map_v2.png?d=f9kZ-P2EUgXwc9p1vvYKyoHKWqLDflgWn7Ex2ZtHUgM&cl=ffffff" />
+</a>
+
 <div class="micro-text">Psst! 🔍 Kudos on your keen eye! Didn't expect anyone to notice this microscopic text. Since you've ventured this far, fancy embarking on a friendship adventure?</div>
 
-*Last modified: Nov. 13, 2024*
+*Last modified: Dec. 20, 2024*
 
 <style>
   #publications ul {
@@ -376,7 +383,6 @@ My **research interest** includes <u>AI for Science (esp. Chemistry)</u>, <u>LLM
     margin-bottom: 5px;
   }
 </style>
-
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
