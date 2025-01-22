@@ -27,11 +27,14 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 
 
 # 🔥 News
+- 2025.01: Our paper [ChemAgent](#pub-chemagent) is accepted to NAACL 2025 Findings.
+- 2025.01: Our paper [ScienceAgentBench](#pub-scienceagentbench) is accepted to ICLR 2025.
 - 2024.11: Please check out our new preprint [ChemAgent](#pub-chemagent), an enhanced chemistry agent and its performance on various chemistry problems.
 - 2024.10: Please check out our new preprint [ScienceAgentBench](#pub-scienceagentbench), a benchmark to assess language models in scientific tasks.
 - 2024.09: Check out our new preprint [MMMU-Pro](#pub-mmmupro), an enhanced version of [MMMU](#pub-mmmu) featuring full-vision evaluation.
 - 2024.07: Our paper [LlaSMol](#pub-llasmol) is accepted to COLM 2024 🎉!
 - 2024.05: Our paper [MMMU](#pub-mmmu) is selected as Oral (0.8%) and nominated for best paper (24 in total) at CVPR 2024 🎊!
+- 2024.02: Please check out our preprint [LlaSMol](#pub-llasmol), where we propose an awesome chemistry task instruction tuning dataset and a series of chemistry LLMs.
 - 2023.08: Arrived at Columbus. My PhD journey officially starts 😋!
 - 2023.05: Please check out our preprint [MuseCoco](#pub-musecoco), a text-to-music generation system.
 - 2022.09: Our paper [Museformer](#pub-museformer) is accepted to NeurIPS 2022 🎉!
@@ -44,13 +47,13 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
   <button class="keyword-btn" data-keyword="nlp">NLP</button>
   <button class="keyword-btn" data-keyword="ai-music">AI Music</button>
   <button class="keyword-btn" data-keyword="cv">CV</button>
-  <label class="first-author-label">
+  <!-- <label class="first-author-label">
     <span class="switch">
       <input type="checkbox" id="firstAuthorToggle">
       <span class="slider"></span>
     </span>
     First Author Only
-  </label>
+  </label> -->
 </div>
 
 <div id="no-publications-message">Sadly, there are no such publications.</div>
@@ -59,7 +62,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
   <ul>
     <span class='anchor' id='pub-chemagent'></span>
     <li class="publication" data-keywords="ai-science nlp" data-first-author="true">
-      <h3>[Preprint 2024] Tooling or Not Tooling? The Impact of Tools on Language Agents for Chemistry Problem Solving</h3>
+      <h3>[NAACL 2025 Findings] Tooling or Not Tooling? The Impact of Tools on Language Agents for Chemistry Problem Solving</h3>
       <div class="authors"><strong>Botao Yu</strong>, Frazier N. Baker*, Ziru Chen*, Garrett Herb, Boyu Gou, Daniel Adu-Ampratwum, Xia Ning, Huan Sun (* equal contribution)</div>
       <div class="description">We propose a tool-augmented language agent for chemistry named ChemAgent, and evaluate it on both specialized chemistry tasks and general chemistry questions. The results show that tools cannot always help and may cause more reasoning errors.</div>
       <div class="links">
@@ -71,7 +74,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 
     <span class='anchor' id='pub-scienceagentbench'></span>
     <li class="publication" data-keywords="ai-science nlp">
-      <h3>[Preprint 2024] ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery</h3>
+      <h3>[ICLR 2025] ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery</h3>
       <div class="authors">Ziru Chen, Shijie Chen, Yuting Ning, Qianheng Zhang, Boshi Wang, <strong>Botao Yu</strong>, Yifei Li, Zeyi Liao, Chen Wei, Zitong Lu, Vishal Dey, Mingyi Xue, Frazier N. Baker, Benjamin Burns, Daniel Adu-Ampratwum, Xuhui Huang, Xia Ning, Song Gao, Yu Su, Huan Sun</div>
       <div class="description">The study introduces a benchmark for evaluating language models in scientific discovery, using 102 tasks from peer-reviewed publications and expert validation. It reveals current limitations in code generation, highlighting the need for rigorous task assessments.</div>
       <div class="links">
@@ -222,7 +225,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 
 <div class="micro-text">Psst! 🔍 Kudos on your keen eye! Didn't expect anyone to notice this microscopic text. Since you've ventured this far, fancy embarking on a friendship adventure?</div>
 
-*Last modified: Dec. 20, 2024*
+*Last modified: Jan. 22, 2025*
 
 <style>
   #publications ul {
