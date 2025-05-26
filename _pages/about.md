@@ -88,7 +88,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 
     <span class='anchor' id='pub-mmmupro'></span>
     <li class="publication" data-keywords="nlp cv">
-      <h3>[Preprint 2024] MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark</h3>
+      <h3>[ACL 2025] MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark</h3>
       <div class="authors">Xiang Yue*, Tianyu Zheng*, Yuansheng Ni*, Yubo Wang, Kai Zhang, Shengbang Tong, Yuxuan Sun, Ming Yin, <strong>Botao Yu</strong>, Ge Zhang, Huan Sun, Yu Su, Wenhu Chen, Graham Neubig (* equal contribution)</div>
       <div class="description">An enhanced version of MMMU featuring full-vision evaluation for multi-discipline multimodal understanding.</div>
       <div class="links">
