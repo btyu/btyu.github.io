@@ -23,10 +23,11 @@ I am Botao Yu (余博涛), a first-year PhD student at [The Ohio State Universit
 
 My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for Science (esp. Chemistry)</u>, <u>NLP</u>, <u>AI music</u>, and <u>deep learning</u>.
 
-🚀 Seeking an internship position for summer 2025!
+<!-- 🚀 Seeking an internship position for summer 2025! -->
 
 
 # 🔥 News
+- 2025.05: Our paper [MMMU-Pro](#pub-mmmupro) is accepted to AACL 2025.
 - 2025.01: Our paper [ChemAgent](#pub-chemagent) is accepted to NAACL 2025 Findings.
 - 2025.01: Our paper [ScienceAgentBench](#pub-scienceagentbench) is accepted to ICLR 2025.
 - 2024.11: Please check out our new preprint [ChemAgent](#pub-chemagent), an enhanced chemistry agent and its performance on various chemistry problems.
@@ -225,7 +226,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 
 <div class="micro-text">Psst! 🔍 Kudos on your keen eye! Didn't expect anyone to notice this microscopic text. Since you've ventured this far, fancy embarking on a friendship adventure?</div>
 
-*Last modified: Jan. 22, 2025*
+*Last updated: May 24, 2025*
 
 <style>
   #publications ul {
