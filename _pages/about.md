@@ -82,6 +82,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 </div>
 
 # 🔥 News
+- 2025.06: Check out our new preprint [AutoSDT](#pub-autosdt), an automated pipeline for generating high-quality scientific coding tasks.
 - 2025.06: Check out 🛠️[ChemMCP](https://osu-nlp-group.github.io/ChemMCP/), our newly released, MCP-compatible chemistry toolkit for LLMs and AI assistants. Let's build it together!
 - 2025.05: Check out our new preprint [Topic Association Analysis](#pub-taa), where we investigated why LLMs misclassify benign comments as toxic from the topic association bias perspective.
 - 2025.05: Our paper [MMMU-Pro](#pub-mmmupro) is accepted to ACL 2025.
@@ -119,6 +120,19 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 
 <div id="publications">
   <ul>
+    <span class='anchor' id='pub-autosdt'></span>
+    <li class="publication" data-keywords="ai-science nlp" data-first-author="true">
+      <h3>[Preprint] AutoSDT: Scaling Data-Driven Discovery Tasks Toward Open Co-Scientists</h3>
+      <div class="authors">Yifei Li, Hanane Nour Moussa, Ziru Chen, Shijie Chen, <strong>Botao Yu</strong>, Mingyi Xue, Benjamin Burns, Tzu-Yao Chiu, Vishal Dey, Zitong Lu, Chen Wei, Qianheng Zhang, Tianyu Zhang, Song Gao, Xuhui Huang, Xia Ning, Nesreen K. Ahmed, Ali Payani, Huan Sun</div>
+      <div class="description">We introduce AutoSDT, an automated pipeline for generating high-quality coding tasks from real-world data-driven scientific workflows, addressing the data scarcity challenge in building AI co-scientists. Using AutoSDT, we create AutoSDT-5K, the largest open dataset of its kind, enabling significant performance gains in scientific discovery benchmarks.</div>
+      <div class="links">
+        <a href="#pub-autosdt">Paper (coming soon)</a>
+        <a href="https://osu-nlp-group.github.io/AutoSDT/">Page</a>
+        <a href="https://huggingface.co/datasets/osunlp/AutoSDT-5K">Dataset</a>
+        <a href="https://github.com/OSU-NLP-Group/AutoSDT">Code</a>
+      </div>
+    </li>
+
     <span class='anchor' id='pub-taa'></span>
     <li class="publication" data-keywords="nlp" data-first-author="true">
       <h3>[Preprint] Probing Association Biases in LLM Moderation Over-Sensitivity</h3>
