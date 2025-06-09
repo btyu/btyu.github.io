@@ -27,7 +27,10 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 
 
 # 🔥 News
-- 2025.05: Our paper [MMMU-Pro](#pub-mmmupro) is accepted to AACL 2025.
+- 2025.06: Check out 🛠️[ChemMCP](https://osu-nlp-group.github.io/ChemMCP/), our newly released, MCP-compatible chemistry toolkit for LLMs and AI assistants. Let's build it together!
+- 2025.05: Check out our new preprint [Topic Association Analysis](#pub-taa), where we investigated why LLMs misclassify benign comments as toxic from the topic association bias perspective.
+- 2025.05: Our paper [MMMU-Pro](#pub-mmmupro) is accepted to ACL 2025.
+- 2025.03: Our ChemAgent is now renamed to [ChemToolAgent](#pub-chemtoolagent). Check out our new version with more experimental results at [arXiv](https://arxiv.org/abs/2411.07228).
 - 2025.01: Our paper [ChemAgent](#pub-chemagent) is accepted to NAACL 2025 Findings.
 - 2025.01: Our paper [ScienceAgentBench](#pub-scienceagentbench) is accepted to ICLR 2025.
 - 2024.11: Please check out our new preprint [ChemAgent](#pub-chemagent), an enhanced chemistry agent and its performance on various chemistry problems.
@@ -40,7 +43,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 - 2023.05: Please check out our preprint [MuseCoco](#pub-musecoco), a text-to-music generation system.
 - 2022.09: Our paper [Museformer](#pub-museformer) is accepted to NeurIPS 2022 🎉!
 
-# 📝 Publication
+# 📝 Publications
 
 <div class="keyword-buttons">
   <button class="keyword-btn" data-keyword="all">All</button>
@@ -61,15 +64,25 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 
 <div id="publications">
   <ul>
-    <span class='anchor' id='pub-chemagent'></span>
+    <span class='anchor' id='pub-taa'></span>
+    <li class="publication" data-keywords="nlp" data-first-author="true">
+      <h3>[Preprint] Probing Association Biases in LLM Moderation Over-Sensitivity</h3>
+      <div class="authors">Yuxin Wang, <strong>Botao Yu</strong>, Ivory Yang, Saeed Hassanpour, Soroush Vosoughi</div>
+      <div class="description">This paper investigates why large language models often misclassify benign comments as toxic, revealing that topic-level biases—rather than just offensive keywords—play a significant role. Using a novel Topic Association Analysis inspired by cognitive psychology, we uncover how LLMs' implicit associations influence moderation decisions.</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2505.23914">Paper</a>
+      </div>
+    </li>
+
+    <span class='anchor' id='pub-chemtoolagent'></span>
     <li class="publication" data-keywords="ai-science nlp" data-first-author="true">
-      <h3>[NAACL 2025 Findings] Tooling or Not Tooling? The Impact of Tools on Language Agents for Chemistry Problem Solving</h3>
+      <h3>[NAACL 2025 Findings] ChemToolAgent: The Impact of Tools on Language Agents for Chemistry Problem Solving</h3>
       <div class="authors"><strong>Botao Yu</strong>, Frazier N. Baker*, Ziru Chen*, Garrett Herb, Boyu Gou, Daniel Adu-Ampratwum, Xia Ning, Huan Sun (* equal contribution)</div>
-      <div class="description">We propose a tool-augmented language agent for chemistry named ChemAgent, and evaluate it on both specialized chemistry tasks and general chemistry questions. The results show that tools cannot always help and may cause more reasoning errors.</div>
+      <div class="description">We propose a tool-augmented language agent for chemistry named ChemAgent, and evaluate it on both specialized chemistry tasks and general chemistry questions. The results show that tools cannot always help and may cause more reasoning errors. Previous title: Tooling or Not Tooling? The Impact of Tools on Language Agents for Chemistry Problem Solving.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2411.07228">Paper</a>
-        <a href="https://osu-nlp-group.github.io/ChemAgent/">Page</a>
-        <a href="https://github.com/OSU-NLP-Group/ChemAgent">Code</a>
+        <a href="https://osu-nlp-group.github.io/ChemToolAgent/">Page</a>
+        <a href="https://github.com/OSU-NLP-Group/ChemToolAgent">Code</a>
       </div>
     </li>
 
@@ -196,26 +209,27 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 
 
 # 📖 Education
-- 2023.08 - Now &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Columbus, Ohio, USA
+- PhD student in Computer Science and Engineering @ The Ohio State University
 
-  PhD student in Computer Science and Engineering @ The Ohio State University
+  2023.08 - Now &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Columbus, Ohio, USA
 
-- 2019.09 - 2023.06 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nanjing, Jiangsu, China
+- Master's student in Computer Science @ Nanjing University (南京大学)
 
-  Master's student in Computer Science @ Nanjing University (南京大学)
+  2019.09 - 2023.06 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nanjing, Jiangsu, China
 
-- 2015.09 - 2019.06 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dalian, Liaoning, China
+- Undergraduate student in Software Engineering @ Dalian University of Technology (大连理工大学)
 
-  Undergraduate student in Software Engineering @ Dalian University of Technology (大连理工大学)
+  2015.09 - 2019.06 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dalian, Liaoning, China
 
-- 2012.09 - 2015.06 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Changsha, Hunan, China
+- High school student @ The High School Attached To Hunan Normal University (湖南师大附中)
 
-  High school student @ The High School Attached To Hunan Normal University (湖南师大附中)
+  2012.09 - 2015.06 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Changsha, Hunan, China
+
 
 # 💻 Internship
-- 2021.04 - 2022.03 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Beijing, China
+- Research intern @ Microsoft Research Asia (微软亚洲研究院)
   
-  Research intern @ Microsoft Research Asia (微软亚洲研究院)
+  2021.04 - 2022.03 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Beijing, China
 
 
 <div style="height: 32vh;"></div>
