@@ -26,6 +26,61 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 <!-- 🚀 Seeking an internship position for summer 2025! -->
 
 
+# 🌟 Featured Projects
+
+<div id="highlight-projects">
+  <div class="project-card">
+    <div class="project-image">
+      <img src="/images/projects/chemmcp.png" alt="ChemMCP" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="project-placeholder">ChemMCP</div>
+    </div>
+    <div class="project-content">
+      <h3>ChemMCP</h3>
+      <div class="project-description">
+        An easy-to-use and extensive MCP-compatible chemistry toolkit for LLMs and AI assistants. ChemMCP provides seamless integration of chemistry tools for LLMs, enabling enhanced chemical reasoning and problem-solving.
+      </div>
+      <div class="project-links">
+        <a href="https://osu-nlp-group.github.io/ChemMCP/" class="project-btn">Page</a>
+        <a href="https://discord.gg/sfZ26Qt3" class="project-btn">Discord</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-image">
+      <img src="/images/projects/chemtoolagent.png" alt="ChemToolAgent" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="project-placeholder">ChemToolAgent</div>
+    </div>
+    <div class="project-content">
+      <h3>ChemToolAgent</h3>
+      <div class="project-description">
+        A tool-augmented language agent for chemistry problem solving. ChemAgent demonstrates the impact of tools on language agents for chemistry tasks, revealing both the benefits and limitations of tool augmentation.
+      </div>
+      <div class="project-links">
+        <a href="https://osu-nlp-group.github.io/ChemToolAgent/" class="project-btn">Page</a>
+        <a href="#pub-chemtoolagent" class="project-btn">Publication</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-image">
+      <img src="/images/projects/llasmol.png" alt="LlaSMol" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="project-placeholder">LlaSMol</div>
+    </div>
+    <div class="project-content">
+      <h3>LlaSMol</h3>
+      <div class="project-description">
+        Large Language Models for chemistry with a comprehensive, high-quality instruction tuning dataset. LlaSMol advances chemistry performance in LLMs through a carefully curated dataset SMolInstruct.
+      </div>
+      <div class="project-links">
+        <a href="https://osu-nlp-group.github.io/LLM4Chem/" class="project-btn">Page</a>
+        <a href="#pub-llasmol" class="project-btn">Publication</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 # 🔥 News
 - 2025.06: Check out 🛠️[ChemMCP](https://osu-nlp-group.github.io/ChemMCP/), our newly released, MCP-compatible chemistry toolkit for LLMs and AI assistants. Let's build it together!
 - 2025.05: Check out our new preprint [Topic Association Analysis](#pub-taa), where we investigated why LLMs misclassify benign comments as toxic from the topic association bias perspective.
@@ -78,7 +133,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
     <li class="publication" data-keywords="ai-science nlp" data-first-author="true">
       <h3>[NAACL 2025 Findings] ChemToolAgent: The Impact of Tools on Language Agents for Chemistry Problem Solving</h3>
       <div class="authors"><strong>Botao Yu</strong>, Frazier N. Baker*, Ziru Chen*, Garrett Herb, Boyu Gou, Daniel Adu-Ampratwum, Xia Ning, Huan Sun (* equal contribution)</div>
-      <div class="description">We propose a tool-augmented language agent for chemistry named ChemAgent, and evaluate it on both specialized chemistry tasks and general chemistry questions. The results show that tools cannot always help and may cause more reasoning errors. Previous title: Tooling or Not Tooling? The Impact of Tools on Language Agents for Chemistry Problem Solving.</div>
+      <div class="description">We propose a tool-augmented language agent for chemistry named ChemToolAgent, and evaluate it on both specialized chemistry tasks and general chemistry questions. The results show that tools cannot always help and may cause more reasoning errors. Previous title: Tooling or Not Tooling? The Impact of Tools on Language Agents for Chemistry Problem Solving.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2411.07228">Paper</a>
         <a href="https://osu-nlp-group.github.io/ChemToolAgent/">Page</a>
@@ -240,7 +295,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 
 <div class="micro-text">Psst! 🔍 Kudos on your keen eye! Didn't expect anyone to notice this microscopic text. Since you've ventured this far, fancy embarking on a friendship adventure?</div>
 
-*Last updated: May 24, 2025*
+*Last updated: June 8, 2025*
 
 <style>
   #publications ul {
@@ -288,7 +343,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
     padding: 5px 10px;
     background-color: #e0e0e0;
     color: #333;
-    text-decoration: none;
+    text-decoration: none !important;
     border-radius: 4px;
     transition: background-color 0.3s ease;
     border: none;
@@ -299,6 +354,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 
   .links a:hover {
     background-color: #c0c0c0;
+    text-decoration: none !important;
   }
 
   #no-publications-message {
@@ -399,6 +455,119 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
     font-size: 2px;
     color: #999;
     margin-bottom: 5px;
+  }
+
+  /* Project Cards Styling */
+  #highlight-projects {
+    margin-bottom: 30px;
+  }
+
+  .project-card {
+    display: flex;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+    gap: 20px;
+  }
+
+  .project-card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .project-image {
+    flex-shrink: 0;
+    width: 160px;
+    height: 120px;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #e9ecef;
+  }
+
+  .project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .project-placeholder {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .project-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-content h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 1.1em;
+  }
+
+  .project-description {
+    margin-bottom: 15px;
+    color: #555;
+    line-height: 1.4;
+    flex: 1;
+  }
+
+  .project-links {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .project-btn {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #e0e0e0;
+    color: #333;
+    text-decoration: none !important;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .project-btn:hover {
+    background-color: #c0c0c0;
+    text-decoration: none !important;
+  }
+
+  /* Responsive design for project cards */
+  @media (max-width: 768px) {
+    .project-card {
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .project-image {
+      width: 100%;
+      height: 200px;
+      align-self: center;
+      max-width: 300px;
+    }
   }
 </style>
 
