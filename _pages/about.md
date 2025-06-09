@@ -19,7 +19,7 @@ redirect_from:
 
 Hi, nice to meet you!
 
-I am Botao Yu (余博涛), a first-year PhD student at [The Ohio State University](https://www.osu.edu/), advised by Prof. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/). Previously, I earned my Master's degree at [Nanjing University](https://www.nju.edu.cn/en/), advised by Prof. [Wei Hu (胡伟)](http://ws.nju.edu.cn/wiki/Wiki.jsp?page=Wei%20Hu).
+I am Botao Yu (余博涛), a PhD student at [The Ohio State University](https://www.osu.edu/), advised by Prof. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/). Previously, I earned my Master's degree at [Nanjing University](https://www.nju.edu.cn/en/), advised by Prof. [Wei Hu (胡伟)](http://ws.nju.edu.cn/wiki/Wiki.jsp?page=Wei%20Hu).
 
 My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for Science (esp. Chemistry)</u>, <u>NLP</u>, <u>AI music</u>, and <u>deep learning</u>.
 
