@@ -121,7 +121,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 <div id="publications">
   <ul>
     <span class='anchor' id='pub-autosdt'></span>
-    <li class="publication" data-keywords="ai-science nlp" data-first-author="true">
+    <li class="publication" data-keywords="ai-science nlp" data-first-author="false">
       <h3>[Preprint] AutoSDT: Scaling Data-Driven Discovery Tasks Toward Open Co-Scientists</h3>
       <div class="authors">Yifei Li, Hanane Nour Moussa, Ziru Chen, Shijie Chen, <strong>Botao Yu</strong>, Mingyi Xue, Benjamin Burns, Tzu-Yao Chiu, Vishal Dey, Zitong Lu, Chen Wei, Qianheng Zhang, Tianyu Zhang, Song Gao, Xuhui Huang, Xia Ning, Nesreen K. Ahmed, Ali Payani, Huan Sun</div>
       <div class="description">We introduce AutoSDT, an automated pipeline for generating high-quality coding tasks from real-world data-driven scientific workflows, addressing the data scarcity challenge in building AI co-scientists. Using AutoSDT, we create AutoSDT-5K, the largest open dataset of its kind, enabling significant performance gains in scientific discovery benchmarks.</div>
@@ -134,7 +134,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
     </li>
 
     <span class='anchor' id='pub-taa'></span>
-    <li class="publication" data-keywords="nlp" data-first-author="true">
+    <li class="publication" data-keywords="nlp" data-first-author="false">
       <h3>[Preprint] Probing Association Biases in LLM Moderation Over-Sensitivity</h3>
       <div class="authors">Yuxin Wang, <strong>Botao Yu</strong>, Ivory Yang, Saeed Hassanpour, Soroush Vosoughi</div>
       <div class="description">This paper investigates why large language models often misclassify benign comments as toxic, revealing that topic-level biases—rather than just offensive keywords—play a significant role. Using a novel Topic Association Analysis inspired by cognitive psychology, we uncover how LLMs' implicit associations influence moderation decisions.</div>
@@ -612,12 +612,15 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  firstAuthorToggle.addEventListener('change', updatePublications);
+  // Only add event listener if the element exists
+  if (firstAuthorToggle) {
+    firstAuthorToggle.addEventListener('change', updatePublications);
+  }
 
   function updatePublications() {
     const activeKeywords = Array.from(document.querySelectorAll('.keyword-btn.active'))
       .map(btn => btn.dataset.keyword);
-    const firstAuthorOnly = firstAuthorToggle.checked;
+    const firstAuthorOnly = firstAuthorToggle ? firstAuthorToggle.checked : false;
 
     let visibleCount = 0;
 
