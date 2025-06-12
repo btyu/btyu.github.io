@@ -126,7 +126,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
       <div class="authors">Yifei Li, Hanane Nour Moussa, Ziru Chen, Shijie Chen, <strong>Botao Yu</strong>, Mingyi Xue, Benjamin Burns, Tzu-Yao Chiu, Vishal Dey, Zitong Lu, Chen Wei, Qianheng Zhang, Tianyu Zhang, Song Gao, Xuhui Huang, Xia Ning, Nesreen K. Ahmed, Ali Payani, Huan Sun</div>
       <div class="description">We introduce AutoSDT, an automated pipeline for generating high-quality coding tasks from real-world data-driven scientific workflows, addressing the data scarcity challenge in building AI co-scientists. Using AutoSDT, we create AutoSDT-5K, the largest open dataset of its kind, enabling significant performance gains in scientific discovery benchmarks.</div>
       <div class="links">
-        <a href="#pub-autosdt">Paper (coming soon)</a>
+        <a href="https://arxiv.org/abs/2506.08140">Paper</a>
         <a href="https://osu-nlp-group.github.io/AutoSDT/">Page</a>
         <a href="https://huggingface.co/datasets/osunlp/AutoSDT-5K">Dataset</a>
         <a href="https://github.com/OSU-NLP-Group/AutoSDT">Code</a>
