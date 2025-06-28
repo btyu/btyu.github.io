@@ -82,6 +82,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 </div>
 
 # 🔥 News
+- 2025.06: Check out our new preprint [Mind2Web 2](#pub-m2w2), a benchmark for evaluating agentic search with agent-as-a-judge.
 - 2025.06: Check out our new preprint [AutoSDT](#pub-autosdt), an automated pipeline for generating high-quality scientific coding tasks.
 - 2025.06: Check out 🛠️[ChemMCP](https://osu-nlp-group.github.io/ChemMCP/), our newly released, MCP-compatible chemistry toolkit for LLMs and AI assistants. Let's build it together!
 - 2025.05: Check out our new preprint [Topic Association Analysis](#pub-taa), where we investigated why LLMs misclassify benign comments as toxic from the topic association bias perspective.
@@ -120,10 +121,23 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 
 <div id="publications">
   <ul>
-    <span class='anchor' id='pub-autosdt'></span>
+    <span class='anchor' id='pub-m2w2'></span>
+    <li class="publication" data-keywords="nlp cv" data-first-author="false">
+      <h3>[Preprint] Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge</h3>
+      <div class="authors">Boyu Gou*, Zanming Huang*, Yuting Ning*, Yu Gu, Michael Lin, Weijian Qi, Andrei Kopanev, <strong>Botao Yu</strong>, Bernal Jiménez Gutiérrez, Yiheng Shu, Chan Hee Song, Jiaman Wu, Shijie Chen, Hanane Nour Moussa, Tianshu Zhang, Jian Xie, Yifei Li, Tianci Xue, Zeyi Liao, Kai Zhang, Boyuan Zheng, Zhaowei Cai, Viktor Rozgic, Morteza Ziyadi, Huan Sun, Yu Su (* equal contribution)</div>
+      <div class="description">we introduce Mind2Web 2, a benchmark of 130 realistic, high-quality, and long-horizon tasks that require real-time web browsing and extensive information synthesis, constructed with over 1,000 hours of human labor.</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2506.21506">Paper</a>
+        <a href="https://osu-nlp-group.github.io/Mind2Web-2/">Page</a>
+        <a href="https://huggingface.co/datasets/osunlp/Mind2Web-2">Dataset</a>
+        <a href="https://osu-nlp-group.github.io/Mind2Web-2/#leaderboard">Leaderboard</a>
+        <a href="https://github.com/OSU-NLP-Group/Mind2Web-2">Code</a>
+      </div>
+    </li>
+    
     <li class="publication" data-keywords="ai-science nlp" data-first-author="false">
       <h3>[Preprint] AutoSDT: Scaling Data-Driven Discovery Tasks Toward Open Co-Scientists</h3>
-      <div class="authors">Yifei Li, Hanane Nour Moussa, Ziru Chen, Shijie Chen, <strong>Botao Yu</strong>, Mingyi Xue, Benjamin Burns, Tzu-Yao Chiu, Vishal Dey, Zitong Lu, Chen Wei, Qianheng Zhang, Tianyu Zhang, Song Gao, Xuhui Huang, Xia Ning, Nesreen K. Ahmed, Ali Payani, Huan Sun</div>
+      <div class="authors">Yifei Li*, Hanane Nour Moussa*, Ziru Chen, Shijie Chen, <strong>Botao Yu</strong>, Mingyi Xue, Benjamin Burns, Tzu-Yao Chiu, Vishal Dey, Zitong Lu, Chen Wei, Qianheng Zhang, Tianyu Zhang, Song Gao, Xuhui Huang, Xia Ning, Nesreen K. Ahmed, Ali Payani, Huan Sun (* equal contribution)</div>
       <div class="description">We introduce AutoSDT, an automated pipeline for generating high-quality coding tasks from real-world data-driven scientific workflows, addressing the data scarcity challenge in building AI co-scientists. Using AutoSDT, we create AutoSDT-5K, the largest open dataset of its kind, enabling significant performance gains in scientific discovery benchmarks.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2506.08140">Paper</a>
@@ -295,10 +309,16 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
   2012.09 - 2015.06 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Changsha, Hunan, China
 
 
-# 💻 Internship
+# 👨🏻‍💻 Internship
 - Research intern @ Microsoft Research Asia (微软亚洲研究院)
   
   2021.04 - 2022.03 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Beijing, China
+
+
+# 💻 Service
+
+- 2025: Reviewer for ARR 2025 (Feb, May), COLM 2025
+- 2024: Reviewer for ICLR 2025, ARR 2024 (Dec), AAAI 2025 AI4Research Workshop
 
 
 <div style="height: 32vh;"></div>
