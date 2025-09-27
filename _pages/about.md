@@ -23,7 +23,7 @@ I am Botao Yu (余博涛), a PhD student at [The Ohio State University](https://
 
 My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for Science (esp. Chemistry)</u>, <u>NLP</u>, <u>AI music</u>, and <u>deep learning</u>.
 
-<!-- 🚀 Seeking an internship position for summer 2025! -->
+🚀 Seeking an internship position for summer 2026!
 
 
 # 🌟 Featured Projects
@@ -82,6 +82,10 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 </div>
 
 # 🔥 News
+- 2025.09: Our paper [Mind2Web 2](#pub-m2w2) is accepted to NeurIPS 2025 🎉.
+- 2025.09: Our paper [LARC](#pub-larc) is accepted to AIAS 2025 and selected as the best paper award 🎉🏆.
+- 2025.09: Check out our new preprint [LARC](#pub-larc), an agentic framework for constrained retrosynthesis planning.
+- 2025.08: Our paper [AutoSDT](#pub-autosdt) is accepted to EMNLP 2025 🎉.
 - 2025.06: Check out our new preprint [Mind2Web 2](#pub-m2w2), a benchmark for evaluating agentic search with agent-as-a-judge.
 - 2025.06: Check out our new preprint [AutoSDT](#pub-autosdt), an automated pipeline for generating high-quality scientific coding tasks.
 - 2025.06: Check out 🛠️[ChemMCP](https://osu-nlp-group.github.io/ChemMCP/), our newly released, MCP-compatible chemistry toolkit for LLMs and AI assistants. Let's build it together!
@@ -117,13 +121,24 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
   </label> -->
 </div>
 
-<div id="no-publications-message">Sadly, there are no such publications.</div>
+<div id="no-publications-message">There is no such publication.</div>
 
 <div id="publications">
   <ul>
+
+    <span class='anchor' id='pub-larc'></span>
+    <li class="publication" data-keywords="ai-science nlp" data-first-author="false">
+      <h3>[AIAS 2025 / 🏆 Best Paper] LARC: Towards Human-level Constrained Retrosynthesis Planning through an Agentic Framework</h3>
+      <div class="authors">Frazier N. Baker, Daniel Adu-Ampratwum, Reza Averly, <strong>Botao Yu</strong>, Huan Sun, Xia Ning</div>
+      <div class="description">LARC, the first LLM-based Agentic framework for Retrosynthesis planning under Constraints. It incorporates agentic constraint evaluation directly into the retrosynthesis planning process, using agentic feedback grounded in tool-based reasoning to guide and constrain route generation.</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2508.11860">Paper</a>
+      </div>
+    </li>
+
     <span class='anchor' id='pub-m2w2'></span>
     <li class="publication" data-keywords="nlp cv" data-first-author="false">
-      <h3>[Preprint] Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge</h3>
+      <h3>[NeurIPS 2025] Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge</h3>
       <div class="authors">Boyu Gou*, Zanming Huang*, Yuting Ning*, Yu Gu, Michael Lin, Weijian Qi, Andrei Kopanev, <strong>Botao Yu</strong>, Bernal Jiménez Gutiérrez, Yiheng Shu, Chan Hee Song, Jiaman Wu, Shijie Chen, Hanane Nour Moussa, Tianshu Zhang, Jian Xie, Yifei Li, Tianci Xue, Zeyi Liao, Kai Zhang, Boyuan Zheng, Zhaowei Cai, Viktor Rozgic, Morteza Ziyadi, Huan Sun, Yu Su (* equal contribution)</div>
       <div class="description">we introduce Mind2Web 2, a benchmark of 130 realistic, high-quality, and long-horizon tasks that require real-time web browsing and extensive information synthesis, constructed with over 1,000 hours of human labor.</div>
       <div class="links">
@@ -135,8 +150,9 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
       </div>
     </li>
     
+    <span class='anchor' id='pub-autosdt'></span>
     <li class="publication" data-keywords="ai-science nlp" data-first-author="false">
-      <h3>[Preprint] AutoSDT: Scaling Data-Driven Discovery Tasks Toward Open Co-Scientists</h3>
+      <h3>[EMNLP 2025] AutoSDT: Scaling Data-Driven Discovery Tasks Toward Open Co-Scientists</h3>
       <div class="authors">Yifei Li*, Hanane Nour Moussa*, Ziru Chen, Shijie Chen, <strong>Botao Yu</strong>, Mingyi Xue, Benjamin Burns, Tzu-Yao Chiu, Vishal Dey, Zitong Lu, Chen Wei, Qianheng Zhang, Tianyu Zhang, Song Gao, Xuhui Huang, Xia Ning, Nesreen K. Ahmed, Ali Payani, Huan Sun (* equal contribution)</div>
       <div class="description">We introduce AutoSDT, an automated pipeline for generating high-quality coding tasks from real-world data-driven scientific workflows, addressing the data scarcity challenge in building AI co-scientists. Using AutoSDT, we create AutoSDT-5K, the largest open dataset of its kind, enabling significant performance gains in scientific discovery benchmarks.</div>
       <div class="links">
@@ -317,8 +333,8 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 
 # 💻 Service
 
-- 2025: Reviewer for ARR 2025 (Feb, May), COLM 2025
-- 2024: Reviewer for ICLR 2025, ARR 2024 (Dec), AAAI 2025 AI4Research Workshop
+- 2025: Reviewer for ARR 2025 (Feb., May, July, Oct.), COLM 2025, NeurIPS 2025 SEA Workshop, ICLR 2026
+- 2024: Reviewer for ICLR 2025, ARR 2024 (Dec.), AAAI 2025 AI4Research Workshop
 
 
 <div style="height: 32vh;"></div>
@@ -329,7 +345,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 
 <div class="micro-text">Psst! 🔍 Kudos on your keen eye! Didn't expect anyone to notice this microscopic text. Since you've ventured this far, fancy embarking on a friendship adventure?</div>
 
-*Last updated: June 8, 2025*
+*Last updated: Sep 27, 2025*
 
 <style>
   #publications ul {
