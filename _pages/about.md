@@ -19,11 +19,13 @@ redirect_from:
 
 Hi, nice to meet you!
 
-I am Botao Yu (余博涛), a PhD student at [The Ohio State University](https://www.osu.edu/), advised by Prof. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/). Previously, I earned my Master's degree at [Nanjing University](https://www.nju.edu.cn/en/), advised by Prof. [Wei Hu (胡伟)](http://ws.nju.edu.cn/wiki/Wiki.jsp?page=Wei%20Hu).
+I am Botao Yu (余博涛), a third-year PhD student at [The Ohio State University](https://www.osu.edu/), advised by Prof. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/). Previously, I earned my Master's degree at [Nanjing University](https://www.nju.edu.cn/en/), advised by Prof. [Wei Hu (胡伟)](http://ws.nju.edu.cn/wiki/Wiki.jsp?page=Wei%20Hu).
 
-My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for Science (esp. Chemistry)</u>, <u>NLP</u>, <u>AI music</u>, and <u>deep learning</u>.
+My research focuses on **language agents** and **tool-integrated reasoning**. I am particularly interested in building agentic systems that can effectively leverage external tools and resources to solve complex problems. Through my work across different domains—from chemistry to scientific discovery to general-purpose agents—I investigate fundamental questions about how agents select and compose tools, handle errors, and reason over multi-step tasks.
 
-🚀 Seeking an internship position for summer 2026!
+My **research interests** include <u>tool-using agents</u>, <u>agentic reasoning and planning</u>, <u>LLM agents</u>, <u>scientific discovery agents</u>, and <u>multi-step problem solving</u>.
+
+🚀 Seeking a **research scientist internship** for summer 2026!
 
 
 # 🌟 Featured Projects
@@ -37,7 +39,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
     <div class="project-content">
       <h3>ChemMCP</h3>
       <div class="project-description">
-        An easy-to-use and extensive MCP-compatible chemistry toolkit for LLMs and AI assistants. ChemMCP provides seamless integration of chemistry tools for LLMs, enabling enhanced chemical reasoning and problem-solving.
+        An MCP-compatible (Model Context Protocol) toolkit that enables seamless tool integration for LLMs and AI assistants. ChemMCP demonstrates how standardized tool protocols can enhance agentic capabilities, providing a foundation for building reliable tool-using agents across different applications.
       </div>
       <div class="project-links">
         <a href="https://osu-nlp-group.github.io/ChemMCP/" class="project-btn">Page</a>
@@ -54,7 +56,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
     <div class="project-content">
       <h3>ChemToolAgent</h3>
       <div class="project-description">
-        A tool-augmented language agent for chemistry problem solving. ChemAgent demonstrates the impact of tools on language agents for chemistry tasks, revealing both the benefits and limitations of tool augmentation.
+        A systematic investigation into tool-augmented language agents. Using chemistry as a testbed, ChemToolAgent reveals fundamental insights about when and how tools help agents: tools don't always improve performance and can introduce new error modes. These findings about tool selection, error propagation, and multi-step reasoning apply broadly to any tool-using agent system.
       </div>
       <div class="project-links">
         <a href="https://osu-nlp-group.github.io/ChemToolAgent/" class="project-btn">Page</a>
@@ -71,7 +73,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
     <div class="project-content">
       <h3>LlaSMol</h3>
       <div class="project-description">
-        Large Language Models for chemistry with a comprehensive, high-quality instruction tuning dataset. LlaSMol advances chemistry performance in LLMs through a carefully curated dataset SMolInstruct.
+        Investigating how to adapt LLMs to specialized domains through high-quality instruction tuning. LlaSMol demonstrates that careful data curation and task diversity matter more than scale—insights that generalize beyond chemistry to other domain adaptation challenges in building capable language agents.
       </div>
       <div class="project-links">
         <a href="https://osu-nlp-group.github.io/LLM4Chem/" class="project-btn">Page</a>
@@ -180,7 +182,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
     <li class="publication" data-keywords="ai-science nlp" data-first-author="true">
       <h3>[NAACL 2025 Findings] ChemToolAgent: The Impact of Tools on Language Agents for Chemistry Problem Solving</h3>
       <div class="authors"><strong>Botao Yu</strong>, Frazier N. Baker*, Ziru Chen*, Garrett Herb, Boyu Gou, Daniel Adu-Ampratwum, Xia Ning, Huan Sun (* equal contribution)</div>
-      <div class="description">We propose a tool-augmented language agent for chemistry named ChemToolAgent, and evaluate it on both specialized chemistry tasks and general chemistry questions. The results show that tools cannot always help and may cause more reasoning errors. Previous title: Tooling or Not Tooling? The Impact of Tools on Language Agents for Chemistry Problem Solving.</div>
+      <div class="description">A systematic investigation into when and how tools help language agents. Using chemistry as a testbed, we reveal that tools don't always improve performance and can introduce new error modes. Our analysis uncovers fundamental challenges in tool selection, error propagation, and multi-step reasoning that apply broadly to tool-using agent systems.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2411.07228">Paper</a>
         <a href="https://osu-nlp-group.github.io/ChemToolAgent/">Page</a>
@@ -217,7 +219,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
     <li class="publication" data-keywords="ai-science nlp" data-first-author="true">
       <h3>[COLM 2024] LlaSMol: Advancing Large Language Models for Chemistry with a Large-Scale, Comprehensive, High-Quality Instruction Tuning Dataset</h3>
       <div class="authors"><strong>Botao Yu</strong>, Frazier N. Baker*, Ziqi Chen*, Xia Ning, Huan Sun (* equal contribution)</div>
-      <div class="description">We propose a carefully curated chemistry task dataset for instruction tuning and a series of LLMs that significantly outperform GPT-4 and Claude-3-Opus on various chemistry tasks.</div>
+      <div class="description">Investigating how to adapt LLMs to specialized domains through instruction tuning. We demonstrate that careful data curation and task diversity matter more than scale, with our models significantly outperforming GPT-4 and Claude-3-Opus. These insights about domain adaptation generalize beyond chemistry to building capable agents in other specialized domains.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2402.09391">Paper</a>
         <a href="https://osu-nlp-group.github.io/LLM4Chem/">Page</a>
@@ -348,7 +350,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 
 <div class="micro-text">Psst! 🔍 Kudos on your keen eye! Didn't expect anyone to notice this microscopic text. Since you've ventured this far, fancy embarking on a friendship adventure?</div>
 
-*Last updated: Sep 27, 2025*
+*Last updated: Nov 21, 2025*
 
 <style>
   #publications ul {
