@@ -82,6 +82,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 </div>
 
 # 🔥 News
+- 2025.10: Our paper [AutoSDT](#pub-autosdt) got the best paper award at the LLM for Scientific Discovery workshop @ COLM 2025 🎉🏆.
 - 2025.09: Our paper [Mind2Web 2](#pub-m2w2) is accepted to NeurIPS 2025 🎉.
 - 2025.09: Our paper [LARC](#pub-larc) is accepted to AIAS 2025 and selected as the best paper award 🎉🏆.
 - 2025.09: Check out our new preprint [LARC](#pub-larc), an agentic framework for constrained retrosynthesis planning.
@@ -92,9 +93,9 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 - 2025.05: Check out our new preprint [Topic Association Analysis](#pub-taa), where we investigated why LLMs misclassify benign comments as toxic from the topic association bias perspective.
 - 2025.05: Our paper [MMMU-Pro](#pub-mmmupro) is accepted to ACL 2025.
 - 2025.03: Our ChemAgent is now renamed to [ChemToolAgent](#pub-chemtoolagent). Check out our new version with more experimental results at [arXiv](https://arxiv.org/abs/2411.07228).
-- 2025.01: Our paper [ChemAgent](#pub-chemagent) is accepted to NAACL 2025 Findings.
+- 2025.01: Our paper [ChemAgent](#pub-chemtoolagent) is accepted to NAACL 2025 Findings.
 - 2025.01: Our paper [ScienceAgentBench](#pub-scienceagentbench) is accepted to ICLR 2025.
-- 2024.11: Please check out our new preprint [ChemAgent](#pub-chemagent), an enhanced chemistry agent and its performance on various chemistry problems.
+- 2024.11: Please check out our new preprint [ChemAgent](#pub-chemtoolagent), an enhanced chemistry agent and its performance on various chemistry problems.
 - 2024.10: Please check out our new preprint [ScienceAgentBench](#pub-scienceagentbench), a benchmark to assess language models in scientific tasks.
 - 2024.09: Check out our new preprint [MMMU-Pro](#pub-mmmupro), an enhanced version of [MMMU](#pub-mmmu) featuring full-vision evaluation.
 - 2024.07: Our paper [LlaSMol](#pub-llasmol) is accepted to COLM 2024 🎉!
@@ -128,7 +129,8 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 
     <span class='anchor' id='pub-larc'></span>
     <li class="publication" data-keywords="ai-science nlp" data-first-author="false">
-      <h3>[AIAS 2025 / 🏆 Best Paper] LARC: Towards Human-level Constrained Retrosynthesis Planning through an Agentic Framework</h3>
+      <h3>[AIAS 2025] LARC: Towards Human-level Constrained Retrosynthesis Planning through an Agentic Framework</h3>
+      <div class="award">🏆 Best Paper Award at AIAS 2025</div>
       <div class="authors">Frazier N. Baker, Daniel Adu-Ampratwum, Reza Averly, <strong>Botao Yu</strong>, Huan Sun, Xia Ning</div>
       <div class="description">LARC, the first LLM-based Agentic framework for Retrosynthesis planning under Constraints. It incorporates agentic constraint evaluation directly into the retrosynthesis planning process, using agentic feedback grounded in tool-based reasoning to guide and constrain route generation.</div>
       <div class="links">
@@ -153,6 +155,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
     <span class='anchor' id='pub-autosdt'></span>
     <li class="publication" data-keywords="ai-science nlp" data-first-author="false">
       <h3>[EMNLP 2025] AutoSDT: Scaling Data-Driven Discovery Tasks Toward Open Co-Scientists</h3>
+      <div class="award">🏆 Best Paper Award at the LLM for Scientific Discovery workshop @ COLM 2025</div>
       <div class="authors">Yifei Li*, Hanane Nour Moussa*, Ziru Chen, Shijie Chen, <strong>Botao Yu</strong>, Mingyi Xue, Benjamin Burns, Tzu-Yao Chiu, Vishal Dey, Zitong Lu, Chen Wei, Qianheng Zhang, Tianyu Zhang, Song Gao, Xuhui Huang, Xia Ning, Nesreen K. Ahmed, Ali Payani, Huan Sun (* equal contribution)</div>
       <div class="description">We introduce AutoSDT, an automated pipeline for generating high-quality coding tasks from real-world data-driven scientific workflows, addressing the data scarcity challenge in building AI co-scientists. Using AutoSDT, we create AutoSDT-5K, the largest open dataset of its kind, enabling significant performance gains in scientific discovery benchmarks.</div>
       <div class="links">
