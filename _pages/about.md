@@ -21,7 +21,7 @@ Hi, nice to meet you!
 
 I am Botao Yu (余博涛), a third-year PhD student at [The Ohio State University](https://www.osu.edu/), advised by Prof. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/). Previously, I earned my Master's degree at [Nanjing University](https://www.nju.edu.cn/en/), advised by Prof. [Wei Hu (胡伟)](http://ws.nju.edu.cn/wiki/Wiki.jsp?page=Wei%20Hu).
 
-My research focuses on **language agents** and **tool-integrated reasoning**. I am particularly interested in building agentic systems that can effectively leverage external tools and resources to solve complex problems. Through my work across different domains—from chemistry to scientific discovery to general-purpose agents—I investigate fundamental questions about how agents select and compose tools, handle errors, and reason over multi-step tasks.
+My research focuses on **language agents** and **tool-integrated reasoning**. Through building agents for complex domains like chemistry and scientific discovery, I've identified fundamental challenges in how agents select and compose tools, handle errors, and reason over multi-step tasks. I am particularly interested in addressing these challenges at a general level, developing principles and frameworks that extend beyond specific application domains.
 
 My **research interests** include <u>tool-using agents</u>, <u>agentic reasoning and planning</u>, <u>LLM agents</u>, <u>scientific discovery agents</u>, and <u>multi-step problem solving</u>.
 
@@ -31,23 +31,6 @@ My **research interests** include <u>tool-using agents</u>, <u>agentic reasoning
 # 🌟 Featured Projects
 
 <div id="highlight-projects">
-  <div class="project-card">
-    <div class="project-image">
-      <img src="/images/projects/chemmcp.png" alt="ChemMCP" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-      <div class="project-placeholder">ChemMCP</div>
-    </div>
-    <div class="project-content">
-      <h3>ChemMCP</h3>
-      <div class="project-description">
-        An MCP-compatible (Model Context Protocol) toolkit that enables seamless tool integration for LLMs and AI assistants. ChemMCP demonstrates how standardized tool protocols can enhance agentic capabilities, providing a foundation for building reliable tool-using agents across different applications.
-      </div>
-      <div class="project-links">
-        <a href="https://osu-nlp-group.github.io/ChemMCP/" class="project-btn">Page</a>
-        <a href="https://discord.gg/sfZ26Qt3" class="project-btn">Discord</a>
-      </div>
-    </div>
-  </div>
-
   <div class="project-card">
     <div class="project-image">
       <img src="/images/projects/chemtoolagent.png" alt="ChemToolAgent" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
@@ -61,6 +44,40 @@ My **research interests** include <u>tool-using agents</u>, <u>agentic reasoning
       <div class="project-links">
         <a href="https://osu-nlp-group.github.io/ChemToolAgent/" class="project-btn">Page</a>
         <a href="#pub-chemtoolagent" class="project-btn">Publication</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-image">
+      <img src="/images/projects/mind2web2.png" alt="Mind2Web 2" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="project-placeholder">Mind2Web 2</div>
+    </div>
+    <div class="project-content">
+      <h3>Mind2Web 2</h3>
+      <div class="project-description">
+        A benchmark for evaluating web agents on realistic, long-horizon agentic search tasks. I contributed to designing the agent-as-a-judge evaluation framework, developed the UI tool for human evaluation, and participated in agent testing and human performance experiments. This work advances our understanding of how to rigorously evaluate complex agentic systems.
+      </div>
+      <div class="project-links">
+        <a href="https://osu-nlp-group.github.io/Mind2Web-2/" class="project-btn">Page</a>
+        <a href="#pub-m2w2" class="project-btn">Publication</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-image">
+      <img src="/images/projects/chemmcp.png" alt="ChemMCP" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="project-placeholder">ChemMCP</div>
+    </div>
+    <div class="project-content">
+      <h3>ChemMCP</h3>
+      <div class="project-description">
+        An MCP-compatible (Model Context Protocol) toolkit that enables seamless tool integration for LLMs and AI assistants. ChemMCP demonstrates how standardized tool protocols can enhance agentic capabilities, providing a foundation for building reliable tool-using agents across different applications.
+      </div>
+      <div class="project-links">
+        <a href="https://osu-nlp-group.github.io/ChemMCP/" class="project-btn">Page</a>
+        <a href="https://discord.gg/sfZ26Qt3" class="project-btn">Discord</a>
       </div>
     </div>
   </div>
