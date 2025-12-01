@@ -21,9 +21,9 @@ Hi, nice to meet you!
 
 I am Botao Yu (余博涛), a third-year PhD student at [The Ohio State University](https://www.osu.edu/), advised by Prof. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/). Previously, I earned my Master's degree at [Nanjing University](https://www.nju.edu.cn/en/), advised by Prof. [Wei Hu (胡伟)](http://ws.nju.edu.cn/wiki/Wiki.jsp?page=Wei%20Hu).
 
-My research focuses on **language agents** and **tool-integrated reasoning**. Through building agents for complex domains like chemistry and scientific discovery, I've identified fundamental challenges in how agents select and compose tools, handle errors, and reason over multi-step tasks. I am particularly interested in addressing these challenges at a general level, developing principles and frameworks that extend beyond specific application domains.
+My research focuses on **language agents**, **tool-integrated reasoning**, and **scientific discovery**. Through training LLMs and building agents for complex domains like chemistry and other science domains, I have developed deep understanding of how agents select and use tools, handle errors, and reason over multi-step tasks. I am now particularly interested in addressing fundamental challenges in agentic tool-integrated reasoning at a general level, developing principles and frameworks that extend beyond specific application domains.
 
-My **research interests** include <u>tool-using agents</u>, <u>agentic reasoning and planning</u>, <u>LLM agents</u>, <u>scientific discovery agents</u>, and <u>multi-step problem solving</u>.
+I also have experience in natural language processing, information extraction, music understanding and generation, and computational chemistry, which provides me with diverse perspectives and transferable skills for tackling new research challenges.
 
 🚀 Seeking a **research scientist internship** for summer 2026!
 
