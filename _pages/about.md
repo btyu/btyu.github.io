@@ -389,7 +389,7 @@ I also have experience in natural language processing, information extraction, m
 
 <div class="micro-text">Psst! 🔍 Kudos on your keen eye! Didn't expect anyone to notice this microscopic text. Since you've ventured this far, fancy embarking on a friendship adventure?</div>
 
-*Last updated: Dec 31, 2024*
+*Last updated: Dec 31, 2025*
 
 <style>
   #publications ul {
