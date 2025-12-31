@@ -141,8 +141,8 @@ I also have experience in natural language processing, information extraction, m
 # 📝 Publications
 
 <div class="keyword-buttons">
-  <button class="keyword-btn" data-keyword="agent">Agent</button>
   <button class="keyword-btn" data-keyword="all">All</button>
+  <button class="keyword-btn" data-keyword="agent">Agent</button>
   <button class="keyword-btn" data-keyword="benchmark">Benchmark</button>
   <button class="keyword-btn" data-keyword="ai-science">AI for Science</button>
   <button class="keyword-btn" data-keyword="nlp">NLP</button>
@@ -272,7 +272,7 @@ I also have experience in natural language processing, information extraction, m
     </li>
 
     <span class='anchor' id='pub-llasmol'></span>
-    <li class="publication" data-keywords="ai-science nlp" data-first-author="true">
+    <li class="publication" data-keywords="ai-science nlp benchmark" data-first-author="true">
       <h3>[COLM 2024] LlaSMol: Advancing Large Language Models for Chemistry with a Large-Scale, Comprehensive, High-Quality Instruction Tuning Dataset</h3>
       <div class="authors"><strong>Botao Yu</strong>, Frazier N. Baker*, Ziqi Chen*, Xia Ning, Huan Sun (* equal contribution)</div>
       <div class="description">Investigating how to adapt LLMs to specialized domains through instruction tuning. We demonstrate that careful data curation and task diversity matter more than scale, with our models significantly outperforming GPT-4 and Claude-3-Opus. These insights about domain adaptation generalize beyond chemistry to building capable agents in other specialized domains.</div>
