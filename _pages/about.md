@@ -101,8 +101,8 @@ I also have experience in natural language processing, information extraction, m
 </div>
 
 # 🔥 News
-- 2024.12: Check out our new preprint [SAGA](#pub-saga), an autonomous agent framework that automates objective function design for scientific discovery through a bi-level architecture.
-- 2024.12: Check out our new preprint [Scientific Discovery Evaluation (SDE)](#pub-sde), a scenario-grounded benchmark for evaluating LLMs in scientific discovery across biology, chemistry, materials, and physics.
+- 2025.12: Check out our new preprint [SAGA](#pub-saga), an autonomous agent framework that automates objective function design for scientific discovery through a bi-level architecture.
+- 2025.12: Check out our new preprint [Scientific Discovery Evaluation (SDE)](#pub-sde), a scenario-grounded benchmark for evaluating LLMs in scientific discovery across biology, chemistry, materials, and physics.
 - 2025.10: Our paper [AutoSDT](#pub-autosdt) got the best paper award at the LLM for Scientific Discovery workshop @ COLM 2025 🎉🏆.
 - 2025.09: Our paper [Mind2Web 2](#pub-m2w2) is accepted to NeurIPS 2025 🎉.
 - 2025.09: Our paper [LARC](#pub-larc) is accepted to AIAS 2025 and selected as the best paper award 🎉🏆.
@@ -150,7 +150,7 @@ I also have experience in natural language processing, information extraction, m
 
     <span class='anchor' id='pub-saga'></span>
     <li class="publication" data-keywords="ai-science nlp" data-first-author="false">
-      <h3>[Preprint 2024] Accelerating Scientific Discovery with Autonomous Goal-evolving Agents</h3>
+      <h3>[Preprint 2025] Accelerating Scientific Discovery with Autonomous Goal-evolving Agents</h3>
       <div class="authors">Yuanqi Du, <strong>Botao Yu</strong>, Tianyu Liu, Tony Shen, Junwu Chen, Jan G. Rittig, Kunyang Sun, Yikun Zhang, Zhangde Song, Bo Zhou, Cassandra Masschelein, Yingze Wang, Haorui Wang, Haojun Jia, Chao Zhang, Hongyu Zhao, Martin Ester, Teresa Head-Gordon, Carla P. Gomes, Huan Sun, Chenru Duan, Philippe Schwaller, Wengong Jin</div>
       <div class="description">An autonomous agent framework that automates objective function design for scientific discovery. SAGA employs a bi-level architecture: an outer loop of LLM agents analyzes optimization outcomes, proposes new objectives, and converts them into scoring functions, while an inner loop performs solution optimization. Applied to antibiotic design, inorganic materials design, functional DNA sequence design, and chemical process design, demonstrating that automating objective formulation substantially improves the effectiveness of scientific discovery agents.</div>
       <div class="links">
@@ -160,7 +160,7 @@ I also have experience in natural language processing, information extraction, m
 
     <span class='anchor' id='pub-sde'></span>
     <li class="publication" data-keywords="ai-science nlp" data-first-author="false">
-      <h3>[Preprint 2024] Evaluating Large Language Models in Scientific Discovery</h3>
+      <h3>[Preprint 2025] Evaluating Large Language Models in Scientific Discovery</h3>
       <div class="authors">Zhangde Song, Jieyu Lu, Yuanqi Du, <strong>Botao Yu</strong>, Thomas M. Pruyn, Yue Huang, Kehan Guo, Xiuzhe Luo, Yuanhao Qu, Yi Qu, Yinkai Wang, Haorui Wang, and 40+ additional authors</div>
       <div class="description">A scenario-grounded benchmark for evaluating LLMs in scientific discovery across biology, chemistry, materials, and physics. The framework evaluates models at two levels: question-level accuracy on scenario-tied items, and project-level performance where models must propose testable hypotheses, design experiments, and interpret results. This addresses gaps in existing benchmarks which overlook the iterative reasoning, hypothesis generation, and observation interpretation that drive scientific discovery.</div>
       <div class="links">
