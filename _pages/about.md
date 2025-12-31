@@ -19,9 +19,9 @@ redirect_from:
 
 Hi, nice to meet you!
 
-I am Botao Yu (余博涛), a third-year PhD student at [The Ohio State University](https://www.osu.edu/), advised by Prof. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/). Previously, I earned my Master's degree at [Nanjing University](https://www.nju.edu.cn/en/), advised by Prof. [Wei Hu (胡伟)](http://ws.nju.edu.cn/wiki/Wiki.jsp?page=Wei%20Hu).
+I am Botao Yu (余博涛), a third-year PhD student at [The Ohio State University](https://www.osu.edu/), fortunately advised by Prof. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/). Previously, I earned my Master's degree at [Nanjing University](https://www.nju.edu.cn/en/).
 
-My research focuses on **language agents**, **tool-integrated reasoning**, and **scientific discovery**. Through training LLMs and building agents for complex domains like chemistry and other science domains, I have developed deep understanding of how agents select and use tools, handle errors, and reason over multi-step tasks. I am now particularly interested in addressing fundamental challenges in agentic tool-integrated reasoning at a general level, developing principles and frameworks that extend beyond specific application domains.
+My research focuses on **language agents**, **tool-integrated reasoning**, and **scientific discovery**. I design and evaluate agentic frameworks and systems for complex problem-solving, with expertise in agent architecture design, tool-integrated reasoning, and multi-level evaluation methodologies. Through this work—from training LLMs and building tool-using agents to designing general agentic frameworks—I have developed deep understanding of how agents select and use tools, handle errors, and reason over multi-step tasks. I am particularly interested in developing general principles and frameworks that extend beyond specific application domains.
 
 I also have experience in natural language processing, information extraction, music understanding and generation, and computational chemistry, which provides me with diverse perspectives and transferable skills for tackling new research challenges.
 
@@ -33,17 +33,34 @@ I also have experience in natural language processing, information extraction, m
 <div id="highlight-projects">
   <div class="project-card">
     <div class="project-image">
+      <img src="/images/projects/saga.png" alt="SAGA" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="project-placeholder">SAGA</div>
+    </div>
+    <div class="project-content">
+      <h3>SAGA</h3>
+      <div class="project-description">
+        A general agentic framework for automated scientific discovery across diverse domains. As the framework architect and co-lead of this multi-institution collaboration (Cornell, Yale, MIT, Northwestern, EPFL), I designed and implemented the core agent system that enables iterative hypothesis generation, experimentation, and analysis. SAGA demonstrates how general agent frameworks can adapt to complex domain-specific challenges while maintaining broad applicability.
+      </div>
+      <div class="project-links">
+        <a href="https://arxiv.org/abs/2512.21782" class="project-btn">Paper</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-image">
       <img src="/images/projects/chemtoolagent.png" alt="ChemToolAgent" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
       <div class="project-placeholder">ChemToolAgent</div>
     </div>
     <div class="project-content">
       <h3>ChemToolAgent</h3>
       <div class="project-description">
-        A systematic investigation into tool-augmented language agents. Using chemistry as a testbed, ChemToolAgent reveals fundamental insights about when and how tools help agents: tools don't always improve performance and can introduce new error modes. These findings about tool selection, error propagation, and multi-step reasoning apply broadly to any tool-using agent system.
+        A systematic investigation into tool-augmented language agents. Using chemistry as a testbed, ChemToolAgent reveals fundamental insights about when and how tools help agents: tools don't always improve performance and can introduce new error modes. These findings about tool selection, error propagation, and multi-step reasoning apply broadly to any tool-using agent system. The project includes ChemMCP, an MCP-compatible toolkit that provides standardized tool integration infrastructure.
       </div>
       <div class="project-links">
         <a href="https://osu-nlp-group.github.io/ChemToolAgent/" class="project-btn">Page</a>
         <a href="#pub-chemtoolagent" class="project-btn">Publication</a>
+        <a href="https://osu-nlp-group.github.io/ChemMCP/" class="project-btn">ChemMCP</a>
       </div>
     </div>
   </div>
@@ -67,23 +84,6 @@ I also have experience in natural language processing, information extraction, m
 
   <div class="project-card">
     <div class="project-image">
-      <img src="/images/projects/chemmcp.png" alt="ChemMCP" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-      <div class="project-placeholder">ChemMCP</div>
-    </div>
-    <div class="project-content">
-      <h3>ChemMCP</h3>
-      <div class="project-description">
-        An MCP-compatible (Model Context Protocol) toolkit that enables seamless tool integration for LLMs and AI assistants. ChemMCP demonstrates how standardized tool protocols can enhance agentic capabilities, providing a foundation for building reliable tool-using agents across different applications.
-      </div>
-      <div class="project-links">
-        <a href="https://osu-nlp-group.github.io/ChemMCP/" class="project-btn">Page</a>
-        <a href="https://discord.gg/sfZ26Qt3" class="project-btn">Discord</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="project-card">
-    <div class="project-image">
       <img src="/images/projects/llasmol.png" alt="LlaSMol" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
       <div class="project-placeholder">LlaSMol</div>
     </div>
@@ -101,6 +101,8 @@ I also have experience in natural language processing, information extraction, m
 </div>
 
 # 🔥 News
+- 2024.12: Check out our new preprint [SAGA](#pub-saga), a general agentic framework for automated scientific discovery across diverse domains. Multi-institution collaboration with Cornell, Yale, MIT, Northwestern, and EPFL.
+- 2024.12: Check out our new preprint [Scientific Discovery Evaluation (SDE)](#pub-sde), a multi-level evaluation framework for assessing LLMs on realistic scientific discovery tasks with 50+ scientists from 20+ institutions.
 - 2025.10: Our paper [AutoSDT](#pub-autosdt) got the best paper award at the LLM for Scientific Discovery workshop @ COLM 2025 🎉🏆.
 - 2025.09: Our paper [Mind2Web 2](#pub-m2w2) is accepted to NeurIPS 2025 🎉.
 - 2025.09: Our paper [LARC](#pub-larc) is accepted to AIAS 2025 and selected as the best paper award 🎉🏆.
@@ -145,6 +147,26 @@ I also have experience in natural language processing, information extraction, m
 
 <div id="publications">
   <ul>
+
+    <span class='anchor' id='pub-saga'></span>
+    <li class="publication" data-keywords="ai-science nlp" data-first-author="false">
+      <h3>[Preprint 2024] SAGA: A Unified Framework for Autonomous Agents in Open-World Scientific Discovery</h3>
+      <div class="authors">Jiahui Geng*, Qiyuan Chen*, <strong>Botao Yu</strong>*, Haotian Wang*, Yifei Li*, Ziru Chen*, Shijie Chen*, Hanane Nour Moussa, Zitong Lu, Vishal Dey, Boshi Wang, Yixin Liu, Simiao Zuo, Tong Chen, Song Gao, Xuhui Huang, Sheng Wang, Laurent Hébert-Dufresne, Chao Zhang, Anima Anandkumar, Xia Ning, Huan Sun (* co-first authors)</div>
+      <div class="description">A general agentic framework for automated scientific discovery across diverse domains. I served as the framework architect and co-lead, designing and implementing the core agent system that enables iterative hypothesis generation, experimentation, and analysis. This multi-institution collaboration (Cornell, Yale, MIT, Northwestern, EPFL) demonstrates how general frameworks can adapt to complex domain-specific challenges while maintaining broad applicability.</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2512.21782">Paper</a>
+      </div>
+    </li>
+
+    <span class='anchor' id='pub-sde'></span>
+    <li class="publication" data-keywords="ai-science nlp" data-first-author="false">
+      <h3>[Preprint 2024] Scientific Discovery Evaluation (SDE): A Multi-Level Evaluation Framework for Assessing AI in Real-World Research</h3>
+      <div class="authors">Ziru Chen, Shijie Chen, Yixin Liu, Yuting Ning, Qianheng Zhang, <strong>Botao Yu</strong>, and 50+ scientists from 20+ institutions</div>
+      <div class="description">A comprehensive multi-level evaluation framework for assessing LLMs on realistic scientific discovery tasks. I contributed to designing the evaluation framework that goes beyond static question-answering to evaluate agents on iterative research scenarios and project-level discovery loops. This work establishes rigorous evaluation standards for AI systems in real-world research contexts.</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2512.15567">Paper</a>
+      </div>
+    </li>
 
     <span class='anchor' id='pub-larc'></span>
     <li class="publication" data-keywords="ai-science nlp" data-first-author="false">
@@ -367,7 +389,7 @@ I also have experience in natural language processing, information extraction, m
 
 <div class="micro-text">Psst! 🔍 Kudos on your keen eye! Didn't expect anyone to notice this microscopic text. Since you've ventured this far, fancy embarking on a friendship adventure?</div>
 
-*Last updated: Nov 21, 2025*
+*Last updated: Dec 31, 2024*
 
 <style>
   #publications ul {
