@@ -237,7 +237,7 @@ I also have experience in natural language processing, information extraction, m
     <li class="publication" data-keywords="agent ai-science nlp" data-first-author="true">
       <h3>[NAACL 2025 Findings] ChemToolAgent: The Impact of Tools on Language Agents for Chemistry Problem Solving</h3>
       <div class="authors"><strong>Botao Yu</strong>, Frazier N. Baker*, Ziru Chen*, Garrett Herb, Boyu Gou, Daniel Adu-Ampratwum, Xia Ning, Huan Sun (* equal contribution)</div>
-      <div class="description">A systematic investigation into when and how tools help language agents. Using chemistry as a testbed, we reveal that tools don't always improve performance and can introduce new error modes. Our analysis uncovers fundamental challenges in tool selection, error propagation, and multi-step reasoning that apply broadly to tool-using agent systems.</div>
+      <div class="description">A systematic investigation into tool-augmented language agents. Using chemistry as a testbed, ChemToolAgent reveals fundamental insights about when and how tools help agents: tools don't always improve performance and can introduce new error modes; whether tools help depends on specific tasks. We also release ChemMCP, an MCP-compatible toolkit for easily building chemistry co-scientists.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2411.07228">Paper</a>
         <a href="https://osu-nlp-group.github.io/ChemToolAgent/">Page</a>
