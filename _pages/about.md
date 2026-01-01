@@ -19,11 +19,13 @@ redirect_from:
 
 Hi, nice to meet you!
 
-I am Botao Yu (余博涛), a PhD student at [The Ohio State University](https://www.osu.edu/), advised by Prof. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/). Previously, I earned my Master's degree at [Nanjing University](https://www.nju.edu.cn/en/), advised by Prof. [Wei Hu (胡伟)](http://ws.nju.edu.cn/wiki/Wiki.jsp?page=Wei%20Hu).
+I am Botao Yu (余博涛), a third-year PhD student at [The Ohio State University](https://www.osu.edu/), fortunately advised by Prof. [Huan Sun](http://web.cse.ohio-state.edu/~sun.397/). Previously, I earned my Master's degree at [Nanjing University](https://www.nju.edu.cn/en/).
 
-My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for Science (esp. Chemistry)</u>, <u>NLP</u>, <u>AI music</u>, and <u>deep learning</u>.
+My research focuses on **language agents**, **tool-integrated reasoning**, and **scientific discovery**. I build and evaluate agentic frameworks and systems for complex problem-solving, with expertise in agent architecture design, tool learning, and multi-level evaluation methodologies. I am particularly interested in developing LLM agents that can use/create tools to solve complex problems in both general and scientific domains.
 
-🚀 Seeking an internship position for summer 2026!
+I also have experience in natural language processing, information extraction, music understanding and generation, and computational chemistry, which provides me with diverse perspectives and transferable skills for tackling new research challenges.
+
+🚀 Seeking a **research scientist internship** for summer 2026!
 
 
 # 🌟 Featured Projects
@@ -31,17 +33,17 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 <div id="highlight-projects">
   <div class="project-card">
     <div class="project-image">
-      <img src="/images/projects/chemmcp.png" alt="ChemMCP" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-      <div class="project-placeholder">ChemMCP</div>
+      <img src="/images/projects/saga.png" alt="SAGA" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="project-placeholder">SAGA</div>
     </div>
     <div class="project-content">
-      <h3>ChemMCP</h3>
+      <h3>SAGA</h3>
       <div class="project-description">
-        An easy-to-use and extensive MCP-compatible chemistry toolkit for LLMs and AI assistants. ChemMCP provides seamless integration of chemistry tools for LLMs, enabling enhanced chemical reasoning and problem-solving.
+        SAGA, a generalist agentic framework that automates objective planning for scientific discovery. SAGA employs a bi-level architecture where an outer loop of LLM agents proposes new objectives and analyzes optimization outcomes, while an inner loop performs solution optimization. Applied across antibiotic design, material design, DNA sequence design, and chemical process design, demonstrating how agents can systematically explore objective spaces.
       </div>
       <div class="project-links">
-        <a href="https://osu-nlp-group.github.io/ChemMCP/" class="project-btn">Page</a>
-        <a href="https://discord.gg/sfZ26Qt3" class="project-btn">Discord</a>
+        <a href="#pub-saga" class="project-btn">Publication</a>
+        <a href="https://arxiv.org/abs/2512.21782" class="project-btn">Paper</a>
       </div>
     </div>
   </div>
@@ -54,11 +56,35 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
     <div class="project-content">
       <h3>ChemToolAgent</h3>
       <div class="project-description">
-        A tool-augmented language agent for chemistry problem solving. ChemAgent demonstrates the impact of tools on language agents for chemistry tasks, revealing both the benefits and limitations of tool augmentation.
+        A systematic investigation into tool-augmented language agents. Using chemistry as a testbed, ChemToolAgent reveals fundamental insights about when and how tools help agents: tools don't always improve performance and can introduce new error modes; whether tools help depends on specific tasks. We also release ChemMCP, an MCP-compatible toolkit for easily building chemistry co-scientists.
       </div>
       <div class="project-links">
-        <a href="https://osu-nlp-group.github.io/ChemToolAgent/" class="project-btn">Page</a>
         <a href="#pub-chemtoolagent" class="project-btn">Publication</a>
+        <a href="https://arxiv.org/abs/2411.07228" class="project-btn">Paper</a>
+        <a href="https://osu-nlp-group.github.io/ChemToolAgent/" class="project-btn">Page</a>
+        <a href="https://github.com/OSU-NLP-Group/ChemToolAgent" class="project-btn">Code</a>
+        <a href="https://osu-nlp-group.github.io/ChemMCP/" class="project-btn">ChemMCP (MCP toolkit)</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-image">
+      <img src="/images/projects/m2w2.png" alt="Mind2Web 2" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="project-placeholder">Mind2Web 2</div>
+    </div>
+    <div class="project-content">
+      <h3>Mind2Web 2</h3>
+      <div class="project-description">
+        A benchmark for evaluating agents on realistic, long-horizon agentic search tasks with agent-as-a-judge methodology. Comprises 130 high-quality tasks requiring real-time web browsing and extensive information synthesis, advancing rigorous evaluation of complex agentic systems beyond simple task completion metrics.
+      </div>
+      <div class="project-links">
+        <a href="#pub-m2w2" class="project-btn">Publication</a>
+        <a href="https://arxiv.org/abs/2506.21506" class="project-btn">Paper</a>
+        <a href="https://osu-nlp-group.github.io/Mind2Web-2/" class="project-btn">Page</a>
+        <a href="https://huggingface.co/datasets/osunlp/Mind2Web-2" class="project-btn">Dataset</a>
+        <a href="https://osu-nlp-group.github.io/Mind2Web-2/#leaderboard" class="project-btn">Leaderboard</a>
+        <a href="https://github.com/OSU-NLP-Group/Mind2Web-2" class="project-btn">Code</a>
       </div>
     </div>
   </div>
@@ -71,17 +97,24 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
     <div class="project-content">
       <h3>LlaSMol</h3>
       <div class="project-description">
-        Large Language Models for chemistry with a comprehensive, high-quality instruction tuning dataset. LlaSMol advances chemistry performance in LLMs through a carefully curated dataset SMolInstruct.
+        Investigating how to adapt LLMs to specialized domains through high-quality instruction tuning. LlaSMol demonstrates that careful data curation and task diversity matter more than scale—insights that generalize beyond chemistry to other domain adaptation challenges in building capable language agents.
       </div>
       <div class="project-links">
-        <a href="https://osu-nlp-group.github.io/LLM4Chem/" class="project-btn">Page</a>
         <a href="#pub-llasmol" class="project-btn">Publication</a>
+        <a href="https://arxiv.org/abs/2402.09391" class="project-btn">Paper</a>
+        <a href="https://osu-nlp-group.github.io/LLM4Chem/" class="project-btn">Page</a>
+        <a href="https://huggingface.co/datasets/osunlp/SMolInstruct" class="project-btn">Dataset</a>
+        <a href="https://huggingface.co/osunlp/LlaSMol-Mistral-7B" class="project-btn">Model</a>
+        <a href="https://github.com/OSU-NLP-Group/LLM4Chem" class="project-btn">Code</a>
+        <a href="https://github.com/btyu/btyu.github.io/blob/main/static/poster/llasmol_poster.pdf" class="project-btn">Poster</a>
       </div>
     </div>
   </div>
 </div>
 
 # 🔥 News
+- 2025.12: Check out our new preprint [SAGA](#pub-saga), an autonomous agent framework that automates objective function design for scientific discovery through a bi-level architecture.
+- 2025.12: Check out our new preprint [Scientific Discovery Evaluation (SDE)](#pub-sde), a scenario-grounded benchmark for evaluating LLMs in scientific discovery across biology, chemistry, materials, and physics.
 - 2025.10: Our paper [AutoSDT](#pub-autosdt) got the best paper award at the LLM for Scientific Discovery workshop @ COLM 2025 🎉🏆.
 - 2025.09: Our paper [Mind2Web 2](#pub-m2w2) is accepted to NeurIPS 2025 🎉.
 - 2025.09: Our paper [LARC](#pub-larc) is accepted to AIAS 2025 and selected as the best paper award 🎉🏆.
@@ -109,6 +142,8 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 
 <div class="keyword-buttons">
   <button class="keyword-btn" data-keyword="all">All</button>
+  <button class="keyword-btn" data-keyword="agent">Agent</button>
+  <button class="keyword-btn" data-keyword="benchmark">Benchmark</button>
   <button class="keyword-btn" data-keyword="ai-science">AI for Science</button>
   <button class="keyword-btn" data-keyword="nlp">NLP</button>
   <button class="keyword-btn" data-keyword="ai-music">AI Music</button>
@@ -127,19 +162,41 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 <div id="publications">
   <ul>
 
+    <span class='anchor' id='pub-saga'></span>
+    <li class="publication" data-keywords="agent ai-science nlp" data-first-author="true">
+      <h3>[Preprint 2025] Accelerating Scientific Discovery with Autonomous Goal-evolving Agents</h3>
+      <div class="authors">Yuanqi Du*, <strong>Botao Yu</strong>*, Tianyu Liu*, Tony Shen*, Junwu Chen*, Jan G. Rittig*, Kunyang Sun*, Yikun Zhang*, Zhangde Song, Bo Zhou, Cassandra Masschelein, Yingze Wang, Haorui Wang, Haojun Jia, Chao Zhang, Hongyu Zhao, Martin Ester, Teresa Head-Gordon, Carla P. Gomes, Huan Sun, Chenru Duan, Philippe Schwaller, Wengong Jin (* equal contribution)</div>
+      <div class="description">SAGA, a generalist agentic framework that automates objective planning for scientific discovery. It employs a bi-level architecture: an outer loop of LLM agents proposes new objectives, converts them into scoring functions, and analyzes optimization outcomes, while an inner loop performs solution optimization. Applied to antibiotic design, materials design, DNA sequence design, and chemical process design, results show that automating objective formulation can substantially improve the effectiveness of scientific discovery agents.</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2512.21782">Paper</a>
+      </div>
+    </li>
+
+    <span class='anchor' id='pub-sde'></span>
+    <li class="publication" data-keywords="agent benchmark ai-science nlp" data-first-author="true">
+      <h3>[Preprint 2025] Evaluating Large Language Models in Scientific Discovery</h3>
+      <div class="authors">Zhangde Song*, Jieyu Lu*, Yuanqi Du*, <strong>Botao Yu</strong>*, Thomas M. Pruyn*, Yue Huang*, Kehan Guo*, Xiuzhe Luo*, Yuanhao Qu*, Yi Qu, Yinkai Wang, Haorui Wang, Jeff Guo, Jingru Gan, Parshin Shojaee, Di Luo, Andres M Bran, Gen Li, Qiyuan Zhao, Shao-Xiong Lennon Luo, Yuxuan Zhang, Xiang Zou, Wanru Zhao, Yifan F. Zhang, Wucheng Zhang, Shunan Zheng, Saiyang Zhang, Sartaaj Takrim Khan, Mahyar Rajabi-Kochi, Samantha Paradi-Maropakis, Tony Baltoiu, Fengyu Xie, Tianyang Chen, Kexin Huang, Weiliang Luo, Meijing Fang, Xin Yang, Lixue Cheng, Jiajun He, Soha Hassoun, Xiangliang Zhang, Wei Wang, Chandan K. Reddy, Chao Zhang, Zhiling Zheng, Mengdi Wang, Le Cong, Carla P. Gomes, Chang-Yu Hsieh, Aditya Nandy, Philippe Schwaller, Heather J. Kulik, Haojun Jia, Huan Sun, Seyed Mohamad Moosavi, Chenru Duan (* equal contribution)</div>
+      <div class="description">A scenario-grounded benchmark for evaluating LLMs in scientific discovery across biology, chemistry, materials, and physics. The framework evaluates models at two levels: question-level accuracy on scenario-tied items, and project-level performance where models must propose testable hypotheses, design experiments, and interpret results. This addresses gaps in existing benchmarks which overlook the iterative reasoning, hypothesis generation, and observation interpretation that drive scientific discovery.</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2512.15567">Paper</a>
+        <a href="https://github.com/HowieHwong/sde-harness">SDE Evaluation Framework</a>
+      </div>
+    </li>
+
     <span class='anchor' id='pub-larc'></span>
-    <li class="publication" data-keywords="ai-science nlp" data-first-author="false">
+    <li class="publication" data-keywords="agent ai-science nlp" data-first-author="false">
       <h3>[AIAS 2025] LARC: Towards Human-level Constrained Retrosynthesis Planning through an Agentic Framework</h3>
       <div class="award">🏆 Best Paper Award at AIAS 2025</div>
       <div class="authors">Frazier N. Baker, Daniel Adu-Ampratwum, Reza Averly, <strong>Botao Yu</strong>, Huan Sun, Xia Ning</div>
-      <div class="description">LARC, the first LLM-based Agentic framework for Retrosynthesis planning under Constraints. It incorporates agentic constraint evaluation directly into the retrosynthesis planning process, using agentic feedback grounded in tool-based reasoning to guide and constrain route generation.</div>
+      <div class="description">LARC, the first LLM-based agentic framework for retrosynthesis planning under constraints. It incorporates agentic constraint evaluation directly into the retrosynthesis planning process, using agentic feedback grounded in tool-based reasoning to guide and constrain route generation.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2508.11860">Paper</a>
+        <a href="https://github.com/ninglab/LARC">Code</a>
       </div>
     </li>
 
     <span class='anchor' id='pub-m2w2'></span>
-    <li class="publication" data-keywords="nlp cv" data-first-author="false">
+    <li class="publication" data-keywords="agent benchmark nlp cv" data-first-author="false">
       <h3>[NeurIPS 2025] Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge</h3>
       <div class="authors">Boyu Gou*, Zanming Huang*, Yuting Ning*, Yu Gu, Michael Lin, Weijian Qi, Andrei Kopanev, <strong>Botao Yu</strong>, Bernal Jiménez Gutiérrez, Yiheng Shu, Chan Hee Song, Jiaman Wu, Shijie Chen, Hanane Nour Moussa, Tianshu Zhang, Jian Xie, Yifei Li, Tianci Xue, Zeyi Liao, Kai Zhang, Boyuan Zheng, Zhaowei Cai, Viktor Rozgic, Morteza Ziyadi, Huan Sun, Yu Su (* equal contribution)</div>
       <div class="description">we introduce Mind2Web 2, a benchmark of 130 realistic, high-quality, and long-horizon tasks that require real-time web browsing and extensive information synthesis, constructed with over 1,000 hours of human labor.</div>
@@ -153,7 +210,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
     </li>
     
     <span class='anchor' id='pub-autosdt'></span>
-    <li class="publication" data-keywords="ai-science nlp" data-first-author="false">
+    <li class="publication" data-keywords="agent ai-science nlp" data-first-author="false">
       <h3>[EMNLP 2025] AutoSDT: Scaling Data-Driven Discovery Tasks Toward Open Co-Scientists</h3>
       <div class="award">🏆 Best Paper Award at the LLM for Scientific Discovery workshop @ COLM 2025</div>
       <div class="authors">Yifei Li*, Hanane Nour Moussa*, Ziru Chen, Shijie Chen, <strong>Botao Yu</strong>, Mingyi Xue, Benjamin Burns, Tzu-Yao Chiu, Vishal Dey, Zitong Lu, Chen Wei, Qianheng Zhang, Tianyu Zhang, Song Gao, Xuhui Huang, Xia Ning, Nesreen K. Ahmed, Ali Payani, Huan Sun (* equal contribution)</div>
@@ -168,7 +225,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 
     <span class='anchor' id='pub-taa'></span>
     <li class="publication" data-keywords="nlp" data-first-author="false">
-      <h3>[Preprint] Probing Association Biases in LLM Moderation Over-Sensitivity</h3>
+      <h3>[Preprint 2025] Probing Association Biases in LLM Moderation Over-Sensitivity</h3>
       <div class="authors">Yuxin Wang, <strong>Botao Yu</strong>, Ivory Yang, Saeed Hassanpour, Soroush Vosoughi</div>
       <div class="description">This paper investigates why large language models often misclassify benign comments as toxic, revealing that topic-level biases—rather than just offensive keywords—play a significant role. Using a novel Topic Association Analysis inspired by cognitive psychology, we uncover how LLMs' implicit associations influence moderation decisions.</div>
       <div class="links">
@@ -177,19 +234,20 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
     </li>
 
     <span class='anchor' id='pub-chemtoolagent'></span>
-    <li class="publication" data-keywords="ai-science nlp" data-first-author="true">
+    <li class="publication" data-keywords="agent ai-science nlp" data-first-author="true">
       <h3>[NAACL 2025 Findings] ChemToolAgent: The Impact of Tools on Language Agents for Chemistry Problem Solving</h3>
       <div class="authors"><strong>Botao Yu</strong>, Frazier N. Baker*, Ziru Chen*, Garrett Herb, Boyu Gou, Daniel Adu-Ampratwum, Xia Ning, Huan Sun (* equal contribution)</div>
-      <div class="description">We propose a tool-augmented language agent for chemistry named ChemToolAgent, and evaluate it on both specialized chemistry tasks and general chemistry questions. The results show that tools cannot always help and may cause more reasoning errors. Previous title: Tooling or Not Tooling? The Impact of Tools on Language Agents for Chemistry Problem Solving.</div>
+      <div class="description">A systematic investigation into tool-augmented language agents. Using chemistry as a testbed, ChemToolAgent reveals fundamental insights about when and how tools help agents: tools don't always improve performance and can introduce new error modes; whether tools help depends on specific tasks. We also release ChemMCP, an MCP-compatible toolkit for easily building chemistry co-scientists.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2411.07228">Paper</a>
         <a href="https://osu-nlp-group.github.io/ChemToolAgent/">Page</a>
         <a href="https://github.com/OSU-NLP-Group/ChemToolAgent">Code</a>
+        <a href="https://osu-nlp-group.github.io/ChemMCP/" class="project-btn">ChemMCP (MCP toolkit)</a>
       </div>
     </li>
 
     <span class='anchor' id='pub-scienceagentbench'></span>
-    <li class="publication" data-keywords="ai-science nlp">
+    <li class="publication" data-keywords="agent benchmark ai-science nlp">
       <h3>[ICLR 2025] ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery</h3>
       <div class="authors">Ziru Chen, Shijie Chen, Yuting Ning, Qianheng Zhang, Boshi Wang, <strong>Botao Yu</strong>, Yifei Li, Zeyi Liao, Chen Wei, Zitong Lu, Vishal Dey, Mingyi Xue, Frazier N. Baker, Benjamin Burns, Daniel Adu-Ampratwum, Xuhui Huang, Xia Ning, Song Gao, Yu Su, Huan Sun</div>
       <div class="description">The study introduces a benchmark for evaluating language models in scientific discovery, using 102 tasks from peer-reviewed publications and expert validation. It reveals current limitations in code generation, highlighting the need for rigorous task assessments.</div>
@@ -202,7 +260,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
     </li>
 
     <span class='anchor' id='pub-mmmupro'></span>
-    <li class="publication" data-keywords="nlp cv">
+    <li class="publication" data-keywords="benchmark nlp cv">
       <h3>[ACL 2025] MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark</h3>
       <div class="authors">Xiang Yue*, Tianyu Zheng*, Yuansheng Ni*, Yubo Wang, Kai Zhang, Shengbang Tong, Yuxuan Sun, Ming Yin, <strong>Botao Yu</strong>, Ge Zhang, Huan Sun, Yu Su, Wenhu Chen, Graham Neubig (* equal contribution)</div>
       <div class="description">An enhanced version of MMMU featuring full-vision evaluation for multi-discipline multimodal understanding.</div>
@@ -214,10 +272,10 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
     </li>
 
     <span class='anchor' id='pub-llasmol'></span>
-    <li class="publication" data-keywords="ai-science nlp" data-first-author="true">
+    <li class="publication" data-keywords="ai-science nlp benchmark" data-first-author="true">
       <h3>[COLM 2024] LlaSMol: Advancing Large Language Models for Chemistry with a Large-Scale, Comprehensive, High-Quality Instruction Tuning Dataset</h3>
       <div class="authors"><strong>Botao Yu</strong>, Frazier N. Baker*, Ziqi Chen*, Xia Ning, Huan Sun (* equal contribution)</div>
-      <div class="description">We propose a carefully curated chemistry task dataset for instruction tuning and a series of LLMs that significantly outperform GPT-4 and Claude-3-Opus on various chemistry tasks.</div>
+      <div class="description">Investigating how to adapt LLMs to specialized domains through instruction tuning. We demonstrate that careful data curation and task diversity matter more than scale, with our models significantly outperforming GPT-4 and Claude-3-Opus. These insights about domain adaptation generalize beyond chemistry to building capable agents in other specialized domains.</div>
       <div class="links">
         <a href="https://arxiv.org/abs/2402.09391">Paper</a>
         <a href="https://osu-nlp-group.github.io/LLM4Chem/">Page</a>
@@ -229,7 +287,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
     </li>
 
     <span class='anchor' id='pub-mmmu'></span>
-    <li class="publication" data-keywords="nlp cv">
+    <li class="publication" data-keywords="benchmark nlp cv">
       <h3>[CVPR 2024 Oral] MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI</h3>
       <div class="authors">Xiang Yue*, Yuansheng Ni*, Kai Zhang*, Tianyu Zheng*, Ruoqi Liu, Ge Zhang, Samuel Stevens, Dongfu Jiang, Weiming Ren, Yuxuan Sun, Cong Wei, <strong>Botao Yu</strong>, Ruibin Yuan, Renliang Sun, Ming Yin, Boyuan Zheng, Zhenzhu Yang, Yibo Liu, Wenhao Huang, Huan Sun*, Yu Su*, Wenhu Chen* (* core contributors)</div>
       <div class="description">This paper proposes a massive multi-discipline multimodal understanding and reasoning benchmark for expert AGI.</div>
@@ -348,7 +406,7 @@ My **research interest** includes <u>LLMs</u>, <u>language agents</u>, <u>AI for
 
 <div class="micro-text">Psst! 🔍 Kudos on your keen eye! Didn't expect anyone to notice this microscopic text. Since you've ventured this far, fancy embarking on a friendship adventure?</div>
 
-*Last updated: Sep 27, 2025*
+*Last updated: Dec 31, 2025*
 
 <style>
   #publications ul {
