@@ -115,6 +115,7 @@ I also have experience in natural language processing, information extraction, m
 # 🔥 News
 - 2025.12: Check out our new preprint [SAGA](#pub-saga), an autonomous agent framework that automates objective function design for scientific discovery through a bi-level architecture.
 - 2025.12: Check out our new preprint [Scientific Discovery Evaluation (SDE)](#pub-sde), a scenario-grounded benchmark for evaluating LLMs in scientific discovery across biology, chemistry, materials, and physics.
+- 2025.10: Check out our new preprint [Holistic Agent Leaderboard (HAL)](#pub-hal), addressing key challenges in AI agent evaluation through standardized evaluation harness and three-dimensional analysis across models, scaffolds, and benchmarks.
 - 2025.10: Our paper [AutoSDT](#pub-autosdt) got the best paper award at the LLM for Scientific Discovery workshop @ COLM 2025 🎉🏆.
 - 2025.09: Our paper [Mind2Web 2](#pub-m2w2) is accepted to NeurIPS 2025 🎉.
 - 2025.09: Our paper [LARC](#pub-larc) is accepted to AIAS 2025 and selected as the best paper award 🎉🏆.
@@ -180,6 +181,18 @@ I also have experience in natural language processing, information extraction, m
       <div class="links">
         <a href="https://arxiv.org/abs/2512.15567">Paper</a>
         <a href="https://github.com/HowieHwong/sde-harness">SDE Evaluation Framework</a>
+      </div>
+    </li>
+
+    <span class='anchor' id='pub-hal'></span>
+    <li class="publication" data-keywords="agent benchmark nlp" data-first-author="false">
+      <h3>[Preprint 2025] Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation</h3>
+      <div class="authors">Sayash Kapoor, Benedikt Stroebl, Peter Kirgis, Nitya Nadgir, Zachary S Siegel, Boyi Wei, Tianci Xue, Ziru Chen, Felix Chen, Saiteja Utpala, Franck Ndzomga, Dheeraj Oruganty, Sophie Luskin, Kangheng Liu, <strong>Botao Yu</strong>, Amit Arora, Dongyoon Hahm, Harsh Trivedi, Huan Sun, Juyong Lee, Tengjun Jin, Yifan Mai, Yifei Zhou, Yuxuan Zhu, Rishi Bommasani, Daniel Kang, Dawn Song, Peter Henderson, Yu Su, Percy Liang, Arvind Narayanan</div>
+      <div class="description">A standardized evaluation infrastructure for AI agents featuring parallel evaluation harness and three-dimensional analysis across models, scaffolds, and benchmarks, shifting focus from benchmark performance to real-world reliability.</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2510.11977">Paper</a>
+        <a href="https://hal.cs.princeton.edu/">Page</a>
+        <a href="https://github.com/princeton-pli/hal-harness">Code</a>
       </div>
     </li>
 
