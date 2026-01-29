@@ -113,6 +113,7 @@ I also have experience in natural language processing, information extraction, m
 </div>
 
 # 🔥 News
+- 2026.01: Our paper [Holistic Agent Leaderboard (HAL)](#pub-hal) is accepted to ICLR 2026 🎉.
 - 2025.12: Check out our new preprint [SAGA](#pub-saga), an autonomous agent framework that automates objective function design for scientific discovery through a bi-level architecture.
 - 2025.12: Check out our new preprint [Scientific Discovery Evaluation (SDE)](#pub-sde), a scenario-grounded benchmark for evaluating LLMs in scientific discovery across biology, chemistry, materials, and physics.
 - 2025.10: Check out our new preprint [Holistic Agent Leaderboard (HAL)](#pub-hal), addressing key challenges in AI agent evaluation through standardized evaluation harness and three-dimensional analysis across models, scaffolds, and benchmarks.
@@ -186,7 +187,7 @@ I also have experience in natural language processing, information extraction, m
 
     <span class='anchor' id='pub-hal'></span>
     <li class="publication" data-keywords="agent benchmark nlp" data-first-author="false">
-      <h3>[Preprint 2025] Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation</h3>
+      <h3>[ICLR 2026] Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation</h3>
       <div class="authors">Sayash Kapoor, Benedikt Stroebl, Peter Kirgis, Nitya Nadgir, Zachary S Siegel, Boyi Wei, Tianci Xue, Ziru Chen, Felix Chen, Saiteja Utpala, Franck Ndzomga, Dheeraj Oruganty, Sophie Luskin, Kangheng Liu, <strong>Botao Yu</strong>, Amit Arora, Dongyoon Hahm, Harsh Trivedi, Huan Sun, Juyong Lee, Tengjun Jin, Yifan Mai, Yifei Zhou, Yuxuan Zhu, Rishi Bommasani, Daniel Kang, Dawn Song, Peter Henderson, Yu Su, Percy Liang, Arvind Narayanan</div>
       <div class="description">A standardized evaluation infrastructure for AI agents featuring parallel evaluation harness and three-dimensional analysis across models, scaffolds, and benchmarks, shifting focus from benchmark performance to real-world reliability.</div>
       <div class="links">
@@ -407,6 +408,7 @@ I also have experience in natural language processing, information extraction, m
 
 # 💻 Service
 
+- 2026: Reviewer for COLM 2026
 - 2025: Reviewer for ARR 2025 (Feb., May, July, Oct.), COLM 2025, NeurIPS 2025 SEA Workshop, ICLR 2026
 - 2024: Reviewer for ICLR 2025, ARR 2024 (Dec.), AAAI 2025 AI4Research Workshop
 
@@ -419,7 +421,7 @@ I also have experience in natural language processing, information extraction, m
 
 <div class="micro-text">Psst! 🔍 Kudos on your keen eye! Didn't expect anyone to notice this microscopic text. Since you've ventured this far, fancy embarking on a friendship adventure?</div>
 
-*Last updated: Dec 31, 2025*
+*Last updated: Jan 29, 2026*
 
 <style>
   #publications ul {
