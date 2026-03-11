@@ -25,8 +25,6 @@ My research focuses on **language agents**, **tool-integrated reasoning**, and *
 
 I also have experience in natural language processing, information extraction, music understanding and generation, and computational chemistry, which provides me with diverse perspectives and transferable skills for tackling new research challenges.
 
-🚀 Seeking a **research scientist internship** for summer 2026!
-
 
 # 🌟 Featured Projects
 
@@ -421,7 +419,7 @@ I also have experience in natural language processing, information extraction, m
 
 <div class="micro-text">Psst! 🔍 Kudos on your keen eye! Didn't expect anyone to notice this microscopic text. Since you've ventured this far, fancy embarking on a friendship adventure?</div>
 
-*Last updated: Jan 29, 2026*
+*Last updated: March 10, 2026*
 
 <style>
   #publications ul {
